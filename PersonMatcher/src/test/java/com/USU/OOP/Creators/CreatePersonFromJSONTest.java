@@ -30,9 +30,9 @@ public class CreatePersonFromJSONTest {
         object.put("FirstName", "Brian");
         object.put("MiddleName", "C");
         object.put("LastName", "Bowles");
-        object.put("BirthDay", 13);
+        object.put("BirthDay", 10);
         object.put("BirthMonth", 3);
-        object.put("BirthYear", 1994);
+        object.put("BirthYear", 1990);
         object.put("SocialSecurityNumber", "123-45-6789");
         object.put("StateFileNumber", "9876");
         object.put("Gender", "M");
@@ -60,9 +60,9 @@ public class CreatePersonFromJSONTest {
         Assert.assertEquals(1, person.get_objectId());
         Assert.assertEquals("Brian", person.get_firstName());
         Assert.assertEquals("Bowles", person.get_lastName());
-        Assert.assertEquals(13, person.get_birthDay());
+        Assert.assertEquals(10, person.get_birthDay());
         Assert.assertEquals(3, person.get_birthMonth());
-        Assert.assertEquals(1994, person.get_birthYear());
+        Assert.assertEquals(1990, person.get_birthYear());
         Assert.assertEquals("123-45-6789", person.get_socialSecurityNumber());
         Assert.assertEquals("435-567-8910", adult.get_phoneOne());
     }
@@ -95,9 +95,9 @@ public class CreatePersonFromJSONTest {
         Assert.assertEquals(1, person.get_objectId());
         Assert.assertEquals("Brian", person.get_firstName());
         Assert.assertEquals("Bowles", person.get_lastName());
-        Assert.assertEquals(13, person.get_birthDay());
+        Assert.assertEquals(10, person.get_birthDay());
         Assert.assertEquals(3, person.get_birthMonth());
-        Assert.assertEquals(1994, person.get_birthYear());
+        Assert.assertEquals(1990, person.get_birthYear());
         Assert.assertEquals("12345", child.get_newBornScreeningNumber());
         Assert.assertEquals("Jenifer", child.get_motherFirstName());
         Assert.assertEquals("Sanderson", child.get_motherLastName());

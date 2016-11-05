@@ -1,0 +1,16 @@
+C:\Users\User\Documents\CS 5700\Homework2\Homework2\bin\Debug\Homework1.exe.config
+C:\Users\User\Documents\CS 5700\Homework2\Homework2\obj\Debug\Homework2.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\CS 5700\Homework2\Homework2\obj\Debug\Homework1.Properties.Resources.resources
+C:\Users\User\Documents\CS 5700\Homework2\Homework2\obj\Debug\Homework1.SMS.resources
+C:\Users\User\Documents\CS 5700\Homework2\Homework2\obj\Debug\Homework2.csproj.GenerateResource.Cache
+C:\Users\User\Documents\CS 5700\Homework2\Homework2\bin\Debug\Homework1.exe
+C:\Users\User\Documents\CS 5700\Homework2\Homework2\bin\Debug\Homework1.pdb
+C:\Users\User\Documents\CS 5700\Homework2\Homework2\obj\Debug\Homework1.exe
+C:\Users\User\Documents\CS 5700\Homework2\Homework2\obj\Debug\Homework1.pdb
+C:\Users\User\Documents\CS 5700\Homework2\Homework2\obj\Debug\Homework1.AddPanelForm.resources
+C:\Users\User\Documents\CS 5700\Homework2\Homework2\obj\Debug\Panels.IndividualStockPricesGraph.resources
+C:\Users\User\Documents\CS 5700\Homework2\Homework2\obj\Debug\Panels.IndividualStockVolumesGraph.resources
+C:\Users\User\Documents\CS 5700\Homework2\Homework2\obj\Debug\Panels.PortfolioStockPricesDisplay.resources
+C:\Users\User\Documents\CS 5700\Homework2\Homework2\obj\Debug\Panels.StockPriceControl.resources
+C:\Users\User\Documents\CS 5700\Homework2\Homework2\bin\Debug\log4net.dll
+C:\Users\User\Documents\CS 5700\Homework2\Homework2\bin\Debug\log4net.xml

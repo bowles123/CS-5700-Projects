@@ -1,0 +1,14 @@
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\UnitTests\bin\Debug\UnitTests.dll
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\UnitTests\bin\Debug\UnitTests.pdb
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\UnitTests\bin\Debug\AppLayer.dll
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\UnitTests\bin\Debug\OceanDrawing.exe
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\UnitTests\bin\Debug\AppLayer.pdb
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\UnitTests\bin\Debug\OceanDrawing.pdb
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\UnitTests\obj\Debug\UnitTests.dll
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\UnitTests\obj\Debug\UnitTests.pdb
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\UnitTests\bin\Debug\AWSSDK.S3.dll
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\UnitTests\bin\Debug\AWSSDK.Core.dll
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\UnitTests\bin\Debug\AWSSDK.S3.xml
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\UnitTests\bin\Debug\AWSSDK.Core.xml
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\UnitTests\bin\Debug\UnitTests.dll.config

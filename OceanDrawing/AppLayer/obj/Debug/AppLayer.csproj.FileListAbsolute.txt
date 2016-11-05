@@ -1,0 +1,8 @@
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\AppLayer\bin\Debug\AppLayer.dll
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\AppLayer\bin\Debug\AppLayer.pdb
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\AppLayer\obj\Debug\AppLayer.dll
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\AppLayer\obj\Debug\AppLayer.pdb
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\AppLayer\bin\Debug\AWSSDK.Core.dll
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\AppLayer\bin\Debug\AWSSDK.S3.dll
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\AppLayer\bin\Debug\AWSSDK.Core.xml
+C:\Users\User\Documents\CS 5700\Homework3\OceanDrawing\AppLayer\bin\Debug\AWSSDK.S3.xml

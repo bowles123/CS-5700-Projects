@@ -1,0 +1,9 @@
+C:\Users\User\Documents\CS 5700\Homework2\NetworkingTests\bin\Debug\NetworkingTests.dll
+C:\Users\User\Documents\CS 5700\Homework2\NetworkingTests\bin\Debug\NetworkingTests.pdb
+C:\Users\User\Documents\CS 5700\Homework2\NetworkingTests\bin\Debug\Homework1.exe
+C:\Users\User\Documents\CS 5700\Homework2\NetworkingTests\bin\Debug\Homework1.pdb
+C:\Users\User\Documents\CS 5700\Homework2\NetworkingTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\CS 5700\Homework2\NetworkingTests\obj\Debug\NetworkingTests.dll
+C:\Users\User\Documents\CS 5700\Homework2\NetworkingTests\obj\Debug\NetworkingTests.pdb
+C:\Users\User\Documents\CS 5700\Homework2\NetworkingTests\bin\Debug\log4net.dll
+C:\Users\User\Documents\CS 5700\Homework2\NetworkingTests\bin\Debug\log4net.xml

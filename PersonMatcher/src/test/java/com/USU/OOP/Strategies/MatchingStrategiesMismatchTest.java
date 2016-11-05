@@ -22,13 +22,13 @@ public class MatchingStrategiesMismatchTest {
         strategy = new CompleteBirthNameGenderStrategy();
 
         person = new Adult();
-        person.setBirthDate(1994, 3, 13);
+        person.setBirthDate(1970, 3, 1);
         person.setName("Brian", "Chalmer", "Bowles");
         person.setGender("M");
         person.set_objectId(1);
 
         person1 = new Child();
-        person1.setBirthDate(2015, 5, 28);
+        person1.setBirthDate(2000, 5, 2);
         person1.setName("Wyatt", "Mason", "Bowles");
         person1.setGender("M");
         person1.set_objectId(2);
@@ -45,13 +45,13 @@ public class MatchingStrategiesMismatchTest {
 
         person = new Child();
         person.set_newBornScreeningNumber("12345");
-        person.setBirthDate(1994, 3, 13);
+        person.setBirthDate(1970, 3, 1);
         person.setMotherName("Jenifer", "Lyn", "Sanderson");
         person.set_objectId(1);
 
         person1 = new Child();
         person1.set_newBornScreeningNumber("56789");
-        person1.setBirthDate(2015, 5, 28);
+        person1.setBirthDate(2000, 5, 28);
         person1.setMotherName("Whitney", "Elizabeth", "Thompson");
         person1.setGender("M");
         person1.set_objectId(2);
@@ -67,12 +67,12 @@ public class MatchingStrategiesMismatchTest {
 
         person = new Adult();
         person.set_socialSecurityNumber("123-45-6789");
-        person.setBirthDate(1994, 3, 13);
+        person.setBirthDate(1970, 3, 1);
         person.set_objectId(1);
 
         person1 = new Child();
         person1.set_socialSecurityNumber("456-78-9123");
-        person1.setBirthDate(2015, 5, 28);
+        person1.setBirthDate(200, 5, 28);
         person1.set_objectId(2);
 
         match = strategy.match(person, person1);

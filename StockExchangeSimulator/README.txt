@@ -1,14 +1,4 @@
-- Diagrams are in the Diagrams folder under Homework2 (pdfs & UXF, for UMLet)
-- 7 of the test cases are written by Dr. Clyde (all of the ones with the StreamStocksMessage and TickerMessage)
-- I am using all of Clydes classes that were shared, w/ some modifications (Communicator, StockPortfolio, Stock, Subject, etc.)
-- The Graphs themselves are not complete, but they do show open/close prices.
-- For some reason GGL does not work as an option for monitoring.
-- The simulator is still sending messages even when the program exits (even after the quick fix Dr. Clyde showed me)
-- When loading a portfolio the file must exist in the current working directory (Homework2/bin/Debug) or the loading won't work.
-- When saving a portfolio the file is saved to the current working directory (Homework2/bin/Debug).
-- For some reason loading a portfolio adds multiple StockPriceControls to the panel so:
-	- you have to press 'X' multiple times to remove the stock.
-	- pressing 'X' once will remove them from the portfolio, so saving again won't save anything if 'X' was pressed twice on all of them.
-- Here is my aws information:
-	- IP Address: 54.69.169.164
-	- Public DNS: ec2-54-69-169-164.us-west-2.compute.amazonaws.com
+#Assignment2
+Assignment to program a stock exchange simulator using networking and the following design patterns
+- Decorator Pattern to determine whether opening or closing stock should be displayed
+- Observer Pattern so the panels that display the stock information know when a change is made

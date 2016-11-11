@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>664</x>
+      <y>368</y>
+      <w>168</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>AppLayer::
+SudokuComponents::Block
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>120</x>
+      <y>208</y>
+      <w>152</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>AppLayer::
+SudokuComponents::Cell
+--
++Possibilities: List&lt;char&gt;
++Value: char
++X: int
++Y: int
+--
++Update()
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>248</x>
+      <y>368</y>
+      <w>168</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>AppLayer::
+SudokuComponents::Row
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>736</x>
+      <y>184</y>
+      <w>168</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>AppLayer::
+SudokuComponents::Puzzle
+--
+-rows: List&lt;Row&gt;
+-columns: List&lt;Column&gt;
+-blocks: List&lt;Block&gt;
+-symboles: List&lt;char&gt;
+--
++AddSymbol(symbol: char)
++WriteOutPuzzle()
++Solve()
++FillPossibilites()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>456</x>
+      <y>368</y>
+      <w>168</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>AppLayer::
+SudokuComponents::Column
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>232</y>
+      <w>128</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=4..*</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>112</x>
+      <y>8</y>
+      <w>168</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>/&lt;&lt;abstract&gt;&gt;/
+AppLayer::
+SudokuComponents::Subject
+--
+-myLock: object
+-observers: List&lt;Observer&gt;
+--
+#NotifyObservers()
+-Subscribe(observer: Observer)
+-Unsubscribe(observer: Observer)
+-Clone(): Subject
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>448</x>
+      <y>184</y>
+      <w>184</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>/&lt;&lt;abstract&gt;&gt;/
+AppLayer::
+SudokuComponents::Component
+--
+-cells: List&lt;Cell&gt;
++Id: int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>280</y>
+      <w>136</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>528</x>
+      <y>280</y>
+      <w>24</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>352</x>
+      <y>280</y>
+      <w>112</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>184</x>
+      <y>136</y>
+      <w>24</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>240</y>
+      <w>200</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=3
+m2=4..*</panel_attributes>
+    <additional_attributes>230.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>456</x>
+      <y>0</y>
+      <w>168</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>/&lt;&lt;interface&gt;&gt;/
+AppLayer::
+SudokuComponents::Observer
+--
+/+Update(cell: Subject)/
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>536</x>
+      <y>96</y>
+      <w>24</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>728</x>
+      <y>16</y>
+      <w>168</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>AppLayer::
+SudokuComponents::
+PuzzleFactory
+--
++Create(file: string): Puzzle
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>808</x>
+      <y>104</y>
+      <w>72</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+/&lt;&lt;creates&gt;&gt;/</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>272</x>
+      <y>48</y>
+      <w>200</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+/&lt;&lt;updates&gt;&gt;/</panel_attributes>
+    <additional_attributes>230.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>152</x>
+      <y>504</y>
+      <w>168</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>AppLayer::
+SolvingAlgorithms::
+BruteForce
+--
+-backtrackStack: Stack&lt;Cell&gt;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>640</x>
+      <y>504</y>
+      <w>168</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>AppLayer::
+SolvingAlgorithms::
+PossibilityEllimination
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>720</y>
+      <w>168</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>AppLayer::
+SolvingAlgorithms::
+SolvedPuzzle
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>720</y>
+      <w>168</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>AppLayer::
+SolvingAlgorithms::
+OnePossibility
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>720</y>
+      <w>168</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>AppLayer::
+SolvingAlgorithms::
+NoPossibilities
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>552</y>
+      <w>96</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>632</y>
+      <w>24</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>312</x>
+      <y>552</y>
+      <w>104</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>312</x>
+      <y>632</y>
+      <w>104</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>632</y>
+      <w>96</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>504</y>
+      <w>168</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>/&lt;&lt;abstract&gt;&gt;/
+AppLayer::
+SolvingAlgorithms::
+SolvingAlgorithm
+--
+- puzzle: Puzzle
+--
+/+IteratePuzzle()/
+/+UpdateCell()/
++Start()
++End()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

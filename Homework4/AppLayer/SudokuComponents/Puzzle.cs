@@ -19,6 +19,7 @@ namespace AppLayer.SudokuComponents
             rows = r;
             columns = c;
             blocks = b;
+            symbols = s;
         }
 
         public void Solve()

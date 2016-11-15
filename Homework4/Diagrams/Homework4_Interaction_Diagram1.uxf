@@ -5,7 +5,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>410</x>
-      <y>90</y>
+      <y>70</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -16,7 +16,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>190</x>
-      <y>90</y>
+      <y>70</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -27,7 +27,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>620</x>
-      <y>180</y>
+      <y>160</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -38,7 +38,7 @@
     <id>Relation</id>
     <coordinates>
       <x>230</x>
-      <y>210</y>
+      <y>190</y>
       <w>30</w>
       <h>100</h>
     </coordinates>
@@ -49,7 +49,7 @@
     <id>Relation</id>
     <coordinates>
       <x>660</x>
-      <y>200</y>
+      <y>180</y>
       <w>30</w>
       <h>70</h>
     </coordinates>
@@ -60,7 +60,7 @@
     <id>Relation</id>
     <coordinates>
       <x>450</x>
-      <y>110</y>
+      <y>90</y>
       <w>30</w>
       <h>70</h>
     </coordinates>
@@ -71,7 +71,7 @@
     <id>Relation</id>
     <coordinates>
       <x>450</x>
-      <y>310</y>
+      <y>290</y>
       <w>30</w>
       <h>160</h>
     </coordinates>
@@ -82,7 +82,7 @@
     <id>Relation</id>
     <coordinates>
       <x>460</x>
-      <y>170</y>
+      <y>150</y>
       <w>180</w>
       <h>40</h>
     </coordinates>
@@ -94,7 +94,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>450</x>
-      <y>160</y>
+      <y>140</y>
       <w>20</w>
       <h>160</h>
     </coordinates>
@@ -105,7 +105,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>660</x>
-      <y>250</y>
+      <y>230</y>
       <w>20</w>
       <h>130</h>
     </coordinates>
@@ -116,7 +116,7 @@
     <id>Relation</id>
     <coordinates>
       <x>460</x>
-      <y>250</y>
+      <y>230</y>
       <w>220</w>
       <h>40</h>
     </coordinates>
@@ -128,7 +128,7 @@ return</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>240</x>
-      <y>290</y>
+      <y>270</y>
       <w>230</w>
       <h>40</h>
     </coordinates>
@@ -140,7 +140,7 @@ return</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>230</x>
-      <y>410</y>
+      <y>390</y>
       <w>30</w>
       <h>70</h>
     </coordinates>
@@ -151,7 +151,7 @@ return</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>240</x>
-      <y>320</y>
+      <y>300</y>
       <w>440</w>
       <h>40</h>
     </coordinates>
@@ -163,7 +163,7 @@ Solve</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>670</x>
-      <y>350</y>
+      <y>330</y>
       <w>190</w>
       <h>40</h>
     </coordinates>
@@ -175,7 +175,7 @@ Solve</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>660</x>
-      <y>370</y>
+      <y>350</y>
       <w>30</w>
       <h>100</h>
     </coordinates>
@@ -186,7 +186,7 @@ Solve</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>840</x>
-      <y>360</y>
+      <y>340</y>
       <w>20</w>
       <h>50</h>
     </coordinates>
@@ -197,7 +197,7 @@ Solve</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>240</x>
-      <y>380</y>
+      <y>360</y>
       <w>620</w>
       <h>40</h>
     </coordinates>
@@ -209,7 +209,7 @@ return</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>840</x>
-      <y>400</y>
+      <y>380</y>
       <w>30</w>
       <h>70</h>
     </coordinates>
@@ -220,7 +220,7 @@ return</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>230</x>
-      <y>110</y>
+      <y>90</y>
       <w>30</w>
       <h>70</h>
     </coordinates>
@@ -231,7 +231,7 @@ return</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>230</x>
-      <y>160</y>
+      <y>140</y>
       <w>20</w>
       <h>60</h>
     </coordinates>
@@ -242,7 +242,7 @@ return</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>240</x>
-      <y>150</y>
+      <y>130</y>
       <w>230</w>
       <h>40</h>
     </coordinates>
@@ -254,7 +254,7 @@ Create</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>230</x>
-      <y>290</y>
+      <y>270</y>
       <w>20</w>
       <h>60</h>
     </coordinates>
@@ -265,7 +265,7 @@ Create</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>230</x>
-      <y>340</y>
+      <y>320</y>
       <w>30</w>
       <h>60</h>
     </coordinates>
@@ -276,7 +276,7 @@ Create</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>230</x>
-      <y>380</y>
+      <y>360</y>
       <w>20</w>
       <h>40</h>
     </coordinates>
@@ -287,7 +287,7 @@ Create</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>840</x>
-      <y>110</y>
+      <y>90</y>
       <w>30</w>
       <h>270</h>
     </coordinates>
@@ -298,7 +298,7 @@ Create</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>790</x>
-      <y>90</y>
+      <y>70</y>
       <w>120</w>
       <h>30</h>
     </coordinates>

@@ -8,26 +8,30 @@ namespace AppLayer.SudokuComponents
     {
         public Puzzle Create(string file)
         {
-            Puzzle puzzle = null;
+            if (!File.Exists(file)) return null;
+
             List<Row> rows;
-            List<Column> columns;
             StreamReader reader = new StreamReader(file);
             List<char> possibleSymbols = new List<char>();
             int size = Convert.ToInt32(reader.ReadLine());
             string symbols = reader.ReadLine();
 
             foreach (char symbol in symbols)
-                possibleSymbols.Add(symbol);
+                if (symbol != ' ')
+                    possibleSymbols.Add(symbol);
 
-            rows = CreateRows(ref reader);
-            columns = CreateColumns(rows);
+            if (possibleSymbols.Count != size)
+                throw new Exception("Not enough symbols given.");
+            rows = CreateRows(ref reader, size);
 
-            return new Puzzle(rows, columns, CreateBlocks(rows, columns), possibleSymbols);
+            if (possibleSymbols.Count != rows.Count)
+                throw new Exception("Non-symmetric puzzle.");
+            return new Puzzle(rows, CreateColumns(rows), CreateBlocks(rows), possibleSymbols);
         }
 
-        public List<Row> CreateRows(ref StreamReader reader)
+        public List<Row> CreateRows(ref StreamReader reader, int size)
         {
-            int c, r = 1;
+            int b, c, r = 1, n = Convert.ToInt32(Math.Sqrt(size));
             List<Row> rows = new List<Row>();
 
             while (!reader.EndOfStream)
@@ -37,10 +41,16 @@ namespace AppLayer.SudokuComponents
                 string values = reader.ReadLine();
                 c = 1;
 
+                if (values == "") break;
+
                 foreach (char symbol in values)
                 {
-                    cell = new Cell(symbol, r, c++);
-                    row.AddCell(cell);
+                    if (symbol != ' ')
+                    {
+                        b = ((r - 1) / n) * n + (c - 1) / n;
+                        cell = new Cell(symbol, r, c++, b);
+                        row.AddCell(cell);
+                    }
                 }
 
                 rows.Add(row);
@@ -57,13 +67,15 @@ namespace AppLayer.SudokuComponents
 
             foreach (Row row in rows)
             {
-                c = 1;
+                c = 0;
 
                 if (row.Id == 1)
                 {
+                    c = 1;
+
                     foreach (Cell cell in row.Cells)
                         columns.Add(new Column(c++));
-                    continue;
+                    c = 0;
                 }
 
                 foreach (Cell cell in row.Cells)
@@ -73,20 +85,19 @@ namespace AppLayer.SudokuComponents
             return columns;
         }
 
-        public List<Block> CreateBlocks(List<Row> rows, List<Column> columns)
+        public List<Block> CreateBlocks(List<Row> rows)
         {
             List<Block> blocks = new List<Block>();
-            int b = 1;
+
+            for (int i = 0; i < rows.Count; i++)
+                blocks.Add(new Block(i + 1));
 
             foreach (Row row in rows)
             {
-                Block block;
-
-                if (row.Id <= Math.Sqrt(row.Cells.Count)) block = new Block(b++);
-
-                for (int i = 0; i < Math.Sqrt(row.Cells.Count); i++)
+                foreach(Cell cell in row.Cells)
                 {
-
+                    
+                    blocks[cell.B].AddCell(cell);
                 }
             }
 

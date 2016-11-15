@@ -21,7 +21,7 @@ SudokuComponents::Block
       <x>120</x>
       <y>208</y>
       <w>152</w>
-      <h>112</h>
+      <h>120</h>
     </coordinates>
     <panel_attributes>AppLayer::
 SudokuComponents::Cell
@@ -30,6 +30,7 @@ SudokuComponents::Cell
 +Value: char
 +X: int
 +Y: int
++B: int
 --
 +Update()
 
@@ -56,8 +57,8 @@ SudokuComponents::Row
     <coordinates>
       <x>736</x>
       <y>184</y>
-      <w>168</w>
-      <h>144</h>
+      <w>184</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>AppLayer::
 SudokuComponents::Puzzle
@@ -65,7 +66,8 @@ SudokuComponents::Puzzle
 -rows: List&lt;Row&gt;
 -columns: List&lt;Column&gt;
 -blocks: List&lt;Block&gt;
--symboles: List&lt;char&gt;
+-symbols: List&lt;char&gt;
+-solvingAlgorithm: SolvingAlgorithm
 --
 +AddSymbol(symbol: char)
 +WriteOutPuzzle()
@@ -355,12 +357,12 @@ NoPossibilities
     <id>Relation</id>
     <coordinates>
       <x>472</x>
-      <y>632</y>
+      <y>640</y>
       <w>24</w>
-      <h>104</h>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -377,12 +379,12 @@ NoPossibilities
     <id>Relation</id>
     <coordinates>
       <x>312</x>
-      <y>632</y>
+      <y>640</y>
       <w>104</w>
-      <h>104</h>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>110.0;10.0;10.0;110.0</additional_attributes>
+    <additional_attributes>110.0;10.0;10.0;100.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -401,14 +403,15 @@ NoPossibilities
       <x>400</x>
       <y>504</y>
       <w>168</w>
-      <h>136</h>
+      <h>144</h>
     </coordinates>
     <panel_attributes>/&lt;&lt;abstract&gt;&gt;/
 AppLayer::
 SolvingAlgorithms::
 SolvingAlgorithm
 --
-- puzzle: Puzzle
+-puzzle: Puzzle
+-solveTime: int
 --
 /+IteratePuzzle()/
 /+UpdateCell()/

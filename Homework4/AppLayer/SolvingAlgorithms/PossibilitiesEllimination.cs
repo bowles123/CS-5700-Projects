@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AppLayer.SudokuComponents;
 
 namespace AppLayer.SolvingAlgorithms
 {
@@ -13,9 +9,9 @@ namespace AppLayer.SolvingAlgorithms
             base.IteratePuzzle(); // Change
         }
 
-        public override void UpdateCell()
+        public override void UpdateCell(Cell cell)
         {
-            base.UpdateCell(); // Change
+            base.UpdateCell(cell); // Change
         }
     }
 }

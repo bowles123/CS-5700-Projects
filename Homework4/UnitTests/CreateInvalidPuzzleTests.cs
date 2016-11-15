@@ -20,7 +20,9 @@ namespace UnitTests
         [TestMethod]
         public void CreatePuzzleFromNonExistingFileTest()
         {
-
+            setup();
+            puzzle = factory.Create("");
+            Assert.IsNull(puzzle);
         }
     }
 }

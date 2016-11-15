@@ -30,9 +30,9 @@ namespace AppLayer.SolvingAlgorithms
 
         }
 
-        public virtual void UpdateCell()
+        public virtual void UpdateCell(Cell cell)
         {
-
+            
         }
     }
 }

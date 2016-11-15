@@ -48,7 +48,8 @@ namespace AppLayer.SudokuComponents
                     if (symbol != ' ')
                     {
                         b = ((r - 1) / n) * n + (c - 1) / n;
-                        cell = new Cell(symbol, r, c++, b);
+                        cell = new Cell(symbol, r, c++, b + 1);
+                        cell.Subscribe(row);
                         row.AddCell(cell);
                     }
                 }
@@ -79,7 +80,10 @@ namespace AppLayer.SudokuComponents
                 }
 
                 foreach (Cell cell in row.Cells)
+                {
+                    cell.Subscribe(columns[c]);
                     columns[c++].AddCell(cell);
+                }
             }
 
             return columns;
@@ -96,8 +100,8 @@ namespace AppLayer.SudokuComponents
             {
                 foreach(Cell cell in row.Cells)
                 {
-                    
-                    blocks[cell.B].AddCell(cell);
+                    cell.Subscribe(blocks[cell.B - 1]);
+                    blocks[cell.B - 1].AddCell(cell);
                 }
             }
 

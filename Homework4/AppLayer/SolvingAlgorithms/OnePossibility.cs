@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using AppLayer.SudokuComponents;
+
 namespace AppLayer.SolvingAlgorithms
 {
     public class OnePossibility : SolvingAlgorithm
@@ -13,9 +15,9 @@ namespace AppLayer.SolvingAlgorithms
             base.IteratePuzzle(); // Change
         }
 
-        public override void UpdateCell()
+        public override void UpdateCell(Cell cell)
         {
-            base.UpdateCell(); // Change
+
         }
     }
 }

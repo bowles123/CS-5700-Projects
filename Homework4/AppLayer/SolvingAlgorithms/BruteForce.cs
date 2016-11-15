@@ -15,9 +15,9 @@ namespace AppLayer.SolvingAlgorithms
             base.IteratePuzzle(); // Change
         }
 
-        public override void UpdateCell()
+        public override void UpdateCell(Cell cell)
         {
-            base.UpdateCell(); // Change
+            base.UpdateCell(cell); // Change
         }
     }
 }

@@ -56,6 +56,7 @@
     <Compile Include="CreatePuzzleTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CreateCorrectCompletPuzzleTests.cs" />
+    <Compile Include="CreateInvalidPuzzleTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AppLayer\AppLayer.csproj">

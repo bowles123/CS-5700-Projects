@@ -27,6 +27,7 @@ namespace AppLayer.SudokuComponents
         {
             Value = val;
             possibilities = poss;
+            NotifyObservers();
         }
     }
 }

@@ -6,12 +6,22 @@ namespace AppLayer.SolvingAlgorithms
     {
         public override void IteratePuzzle()
         {
-            base.IteratePuzzle(); // Change
-        }
-
-        public override void UpdateCell(Cell cell)
-        {
-            base.UpdateCell(cell); // Change
+            foreach (Cell cell in Puzzle)
+            {
+                if (cell.Value.Equals('_'))
+                {
+                    foreach (char possibility in cell.Possibilities)
+                    {
+                        if (!Puzzle.Rows[cell.X].Contains(possibility) &&
+                            !Puzzle.Columns[cell.Y].Contains(possibility) &&
+                            !Puzzle.Blocks[cell.B].Contains(possibility))
+                        {
+                            UpdateCell(cell, possibility);
+                            return;
+                        }
+                    }
+                }
+            }
         }
     }
 }

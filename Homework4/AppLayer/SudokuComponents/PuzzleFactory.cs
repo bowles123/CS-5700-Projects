@@ -11,6 +11,7 @@ namespace AppLayer.SudokuComponents
             if (!File.Exists(file)) return null;
 
             List<Row> rows;
+            Puzzle puzzle = null;
             StreamReader reader = new StreamReader(file);
             List<char> possibleSymbols = new List<char>();
             int size = Convert.ToInt32(reader.ReadLine());
@@ -26,7 +27,11 @@ namespace AppLayer.SudokuComponents
 
             if (possibleSymbols.Count != rows.Count)
                 throw new Exception("Non-symmetric puzzle.");
-            return new Puzzle(rows, CreateColumns(rows), CreateBlocks(rows), possibleSymbols);
+
+            puzzle = new Puzzle(rows, CreateColumns(rows), CreateBlocks(rows), possibleSymbols);
+            puzzle.OutFile = file.Insert(file.Length - 4, "-Out");
+            puzzle.FillPossibilities();
+            return puzzle;
         }
 
         public List<Row> CreateRows(ref StreamReader reader, int size)
@@ -74,12 +79,12 @@ namespace AppLayer.SudokuComponents
                 {
                     c = 1;
 
-                    foreach (Cell cell in row.Cells)
+                    foreach (Cell cell in row)
                         columns.Add(new Column(c++));
                     c = 0;
                 }
 
-                foreach (Cell cell in row.Cells)
+                foreach (Cell cell in row)
                 {
                     cell.Subscribe(columns[c]);
                     columns[c++].AddCell(cell);
@@ -98,7 +103,7 @@ namespace AppLayer.SudokuComponents
 
             foreach (Row row in rows)
             {
-                foreach(Cell cell in row.Cells)
+                foreach(Cell cell in row)
                 {
                     cell.Subscribe(blocks[cell.B - 1]);
                     blocks[cell.B - 1].AddCell(cell);

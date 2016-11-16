@@ -7,12 +7,14 @@ namespace AppLayer.SolvingAlgorithms
     {
         public override void IteratePuzzle()
         {
-            base.IteratePuzzle(); // Change
-        }
-
-        public override void UpdateCell(Cell cell)
-        {
-            throw new Exception("Unsolvable puzzle.");
+            foreach (Cell cell in Puzzle)
+            {
+                if (cell.Value == '_' && cell.Possibilities == null)
+                {
+                    throw new Exception("Cell with no possibilities.");
+                }
+                return;
+            }
         }
     }
 }

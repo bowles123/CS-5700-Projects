@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using AppLayer.SudokuComponents;
+﻿using AppLayer.SudokuComponents;
 
 namespace AppLayer.SolvingAlgorithms
 {
@@ -12,12 +6,14 @@ namespace AppLayer.SolvingAlgorithms
     {
         public override void IteratePuzzle()
         {
-            base.IteratePuzzle(); // Change
-        }
-
-        public override void UpdateCell(Cell cell)
-        {
-
+            foreach (Cell cell in Puzzle)
+            {
+                if (cell.Value == '_' && cell.Possibilities.Count == 1)
+                {
+                    UpdateCell(cell, cell.Possibilities[0]);
+                    return;
+                }
+            }
         }
     }
 }

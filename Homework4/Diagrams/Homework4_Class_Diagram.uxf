@@ -21,7 +21,7 @@ SudokuComponents::Block
       <x>120</x>
       <y>208</y>
       <w>152</w>
-      <h>120</h>
+      <h>136</h>
     </coordinates>
     <panel_attributes>AppLayer::
 SudokuComponents::Cell
@@ -33,6 +33,7 @@ SudokuComponents::Cell
 +B: int
 --
 +Update()
++UpdatePossibilities()
 
 
 </panel_attributes>
@@ -56,9 +57,9 @@ SudokuComponents::Row
     <id>UMLClass</id>
     <coordinates>
       <x>736</x>
-      <y>184</y>
+      <y>176</y>
       <w>184</w>
-      <h>160</h>
+      <h>168</h>
     </coordinates>
     <panel_attributes>AppLayer::
 SudokuComponents::Puzzle
@@ -69,7 +70,8 @@ SudokuComponents::Puzzle
 -symbols: List&lt;char&gt;
 -solvingAlgorithm: SolvingAlgorithm
 --
-+AddSymbol(symbol: char)
++OutFile: string
++Solved: bool
 +WriteOutPuzzle()
 +Solve()
 +FillPossibilites()
@@ -248,11 +250,11 @@ PuzzleFactory
       <x>808</x>
       <y>104</y>
       <w>72</w>
-      <h>96</h>
+      <h>88</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
 /&lt;&lt;creates&gt;&gt;/</panel_attributes>
-    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -357,12 +359,12 @@ NoPossibilities
     <id>Relation</id>
     <coordinates>
       <x>472</x>
-      <y>640</y>
+      <y>656</y>
       <w>24</w>
-      <h>96</h>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -379,23 +381,23 @@ NoPossibilities
     <id>Relation</id>
     <coordinates>
       <x>312</x>
-      <y>640</y>
+      <y>656</y>
       <w>104</w>
-      <h>96</h>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>110.0;10.0;10.0;100.0</additional_attributes>
+    <additional_attributes>110.0;10.0;10.0;80.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>560</x>
-      <y>632</y>
+      <y>656</y>
       <w>96</w>
-      <h>104</h>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;100.0;110.0</additional_attributes>
+    <additional_attributes>10.0;10.0;100.0;80.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -403,20 +405,55 @@ NoPossibilities
       <x>400</x>
       <y>504</y>
       <w>168</w>
-      <h>144</h>
+      <h>160</h>
     </coordinates>
     <panel_attributes>/&lt;&lt;abstract&gt;&gt;/
 AppLayer::
 SolvingAlgorithms::
 SolvingAlgorithm
 --
--puzzle: Puzzle
 -solveTime: int
+-stopwatch: Stopwatch
 --
++Puzzle: Puzzle
 /+IteratePuzzle()/
-/+UpdateCell()/
++UpdateCell()
 +Start()
 +End()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>312</x>
+      <y>104</y>
+      <w>128</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Note..
+Component implements
+C#'s IEnumerable
+interface.
+
+bg=yellow
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>616</x>
+      <y>112</y>
+      <w>104</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Note..
+Puzzle implements
+C#'s IEnumerable
+interface.
+
+bg=yellow
 </panel_attributes>
     <additional_attributes/>
   </element>

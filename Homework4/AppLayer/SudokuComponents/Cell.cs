@@ -4,30 +4,31 @@ namespace AppLayer.SudokuComponents
 {
     public class Cell: Subject
     {
-        private List<char> possibilities = new List<char>();
-        private int x;
-        private int y;
-        private int b;
-
-        public List<char> Possibilities { get { return possibilities; } }
+        public List<char> Possibilities { get; private set; }
         public char Value { get; private set; }
-        public int X { get { return x; } }
-        public int Y { get { return y; } }
-        public int B { get { return b; } }
+        public int X { get; private set; }
+        public int Y { get; private set; }
+        public int B { get; private set; }
 
         public Cell(char symbol, int row, int col, int block)
         {
+            Possibilities = new List<char>();
             Value = symbol;
-            b = block;
-            x = col;
-            y = row;
+            B = block;
+            X = col;
+            Y = row;
         }
 
-        public void Update(char val, List<char> poss)
+        public void Update(char val)
         {
             Value = val;
-            possibilities = poss;
+            Possibilities = null;
             NotifyObservers();
+        }
+
+        public void RemovePossibility(char poss)
+        {
+            Possibilities.Remove(poss); // what happens if it doesn't exist, check.
         }
     }
 }

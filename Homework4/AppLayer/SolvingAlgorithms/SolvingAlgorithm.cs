@@ -3,36 +3,39 @@ using System.Diagnostics;
 
 namespace AppLayer.SolvingAlgorithms
 {
-    public class SolvingAlgorithm
+    public abstract class SolvingAlgorithm
     {
-        private Puzzle puzzle;
-        private Stopwatch stopWatch;
+        private Stopwatch stopwatch;
         private int solveTime;
+
+        public Puzzle Puzzle { get; set; }
+        public abstract void IteratePuzzle();
 
         public SolvingAlgorithm()
         {
-            stopWatch = new Stopwatch();
+            stopwatch = new Stopwatch();
         }
 
         public void Start()
         {
-            stopWatch.Start();
+            stopwatch.Start();
+            IteratePuzzle();
         }
 
         public void End()
         {
-            stopWatch.Stop();
-            solveTime = stopWatch.Elapsed.Seconds;
+            stopwatch.Stop();
+            solveTime = stopwatch.Elapsed.Seconds;
+
+            if (Puzzle.Solved)
+                Puzzle.WriteOutPuzzle(Puzzle.OutFile);
         }
 
-        public virtual void IteratePuzzle()
+        public void UpdateCell(Cell cell, char val)
         {
-
-        }
-
-        public virtual void UpdateCell(Cell cell)
-        {
-            
+            cell.Update(val);
+            Puzzle.SolvingAlgorithm = new SolvedPuzzle();
+            Puzzle.SolvingAlgorithm.Start();
         }
     }
 }

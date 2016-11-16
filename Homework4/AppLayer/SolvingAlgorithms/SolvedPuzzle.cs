@@ -1,5 +1,4 @@
-﻿using System;
-using AppLayer.SudokuComponents;
+﻿using AppLayer.SudokuComponents;
 
 namespace AppLayer.SolvingAlgorithms
 {
@@ -7,12 +6,17 @@ namespace AppLayer.SolvingAlgorithms
     {
         public override void IteratePuzzle()
         {
-            base.IteratePuzzle(); // Change
-        }
+            foreach (Cell cell in Puzzle)
+            {
+                if (cell.Value == '_')
+                {
+                    Puzzle.SolvingAlgorithm = new NoPossibilities();
+                    Puzzle.SolvingAlgorithm.Start();
+                    return;
+                }
+            }
 
-        public override void UpdateCell(Cell cell)
-        {
-            throw new InvalidOperationException();
+            Puzzle.Solved = (BruteForce.BacktrackingStack.Count == 0);
         }
     }
 }

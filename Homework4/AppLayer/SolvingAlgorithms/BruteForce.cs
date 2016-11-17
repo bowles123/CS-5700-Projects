@@ -5,21 +5,13 @@ namespace AppLayer.SolvingAlgorithms
 {
     public class BruteForce : SolvingAlgorithm
     {
-        private static Stack<Cell> backtrackingStack = new Stack<Cell>();
+        public BruteForce() { actualType = "BRUTE_FORCE"; }
 
-        public static Stack<Cell> BacktrackingStack { get { return backtrackingStack; } }
-        public BruteForce() { }
-
-        public override void IteratePuzzle()
+        public override bool CheckCell(Cell cell)
         {
-            foreach (Cell cell in Puzzle)
-            {
-                if (cell.Value.Equals('_'))
-                {
-                    cell.Update(cell.Possibilities[0]);
-                    backtrackingStack.Push(cell);
-                }
-            }
+            cell.Update(cell.Possibilities[0]);
+            Puzzle.BacktrackingStack.Push(Puzzle);
+            return true;
         }
     }
 }

@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>664</x>
-      <y>368</y>
+      <x>632</x>
+      <y>376</y>
       <w>168</w>
       <h>96</h>
     </coordinates>
@@ -18,8 +18,8 @@ SudokuComponents::Block
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>120</x>
-      <y>208</y>
+      <x>88</x>
+      <y>216</y>
       <w>152</w>
       <h>136</h>
     </coordinates>
@@ -42,8 +42,8 @@ SudokuComponents::Cell
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>248</x>
-      <y>368</y>
+      <x>216</x>
+      <y>376</y>
       <w>168</w>
       <h>96</h>
     </coordinates>
@@ -56,9 +56,9 @@ SudokuComponents::Row
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>736</x>
-      <y>176</y>
-      <w>184</w>
+      <x>704</x>
+      <y>184</y>
+      <w>216</w>
       <h>168</h>
     </coordinates>
     <panel_attributes>AppLayer::
@@ -68,12 +68,13 @@ SudokuComponents::Puzzle
 -columns: List&lt;Column&gt;
 -blocks: List&lt;Block&gt;
 -symbols: List&lt;char&gt;
--solvingAlgorithm: SolvingAlgorithm
 --
++SolvingAlgorithm: SolvingAlgorithm
++BacktrackginStack: Stack&lt;Cell&gt;
 +OutFile: string
 +Solved: bool
 +WriteOutPuzzle()
-+Solve()
++Solve(algorithm: List&lt;SolvingAlgorithm&gt;)
 +FillPossibilites()
 </panel_attributes>
     <additional_attributes/>
@@ -81,8 +82,8 @@ SudokuComponents::Puzzle
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>456</x>
-      <y>368</y>
+      <x>424</x>
+      <y>376</y>
       <w>168</w>
       <h>96</h>
     </coordinates>
@@ -95,8 +96,8 @@ SudokuComponents::Column
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>624</x>
-      <y>232</y>
+      <x>592</x>
+      <y>240</y>
       <w>128</w>
       <h>32</h>
     </coordinates>
@@ -108,8 +109,8 @@ m2=4..*</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>112</x>
-      <y>8</y>
+      <x>80</x>
+      <y>16</y>
       <w>168</w>
       <h>136</h>
     </coordinates>
@@ -130,8 +131,8 @@ SudokuComponents::Subject
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>448</x>
-      <y>184</y>
+      <x>416</x>
+      <y>192</y>
       <w>184</w>
       <h>104</h>
     </coordinates>
@@ -147,8 +148,8 @@ SudokuComponents::Component
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>624</x>
-      <y>280</y>
+      <x>592</x>
+      <y>288</y>
       <w>136</w>
       <h>104</h>
     </coordinates>
@@ -158,8 +159,8 @@ SudokuComponents::Component
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>528</x>
-      <y>280</y>
+      <x>496</x>
+      <y>288</y>
       <w>24</w>
       <h>104</h>
     </coordinates>
@@ -169,8 +170,8 @@ SudokuComponents::Component
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>352</x>
-      <y>280</y>
+      <x>320</x>
+      <y>288</y>
       <w>112</w>
       <h>104</h>
     </coordinates>
@@ -180,8 +181,8 @@ SudokuComponents::Component
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>184</x>
-      <y>136</y>
+      <x>152</x>
+      <y>144</y>
       <w>24</w>
       <h>88</h>
     </coordinates>
@@ -191,8 +192,8 @@ SudokuComponents::Component
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
-      <y>240</y>
+      <x>232</x>
+      <y>248</y>
       <w>200</w>
       <h>32</h>
     </coordinates>
@@ -204,8 +205,8 @@ m2=4..*</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>456</x>
-      <y>0</y>
+      <x>424</x>
+      <y>8</y>
       <w>168</w>
       <h>104</h>
     </coordinates>
@@ -220,8 +221,8 @@ SudokuComponents::Observer
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>536</x>
-      <y>96</y>
+      <x>504</x>
+      <y>104</y>
       <w>24</w>
       <h>104</h>
     </coordinates>
@@ -231,8 +232,8 @@ SudokuComponents::Observer
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>728</x>
-      <y>16</y>
+      <x>696</x>
+      <y>24</y>
       <w>168</w>
       <h>96</h>
     </coordinates>
@@ -247,8 +248,8 @@ PuzzleFactory
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>808</x>
-      <y>104</y>
+      <x>776</x>
+      <y>112</y>
       <w>72</w>
       <h>88</h>
     </coordinates>
@@ -259,8 +260,8 @@ PuzzleFactory
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>272</x>
-      <y>48</y>
+      <x>240</x>
+      <y>56</y>
       <w>200</w>
       <h>32</h>
     </coordinates>
@@ -271,8 +272,8 @@ PuzzleFactory
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>152</x>
-      <y>504</y>
+      <x>120</x>
+      <y>512</y>
       <w>168</w>
       <h>104</h>
     </coordinates>
@@ -280,15 +281,14 @@ PuzzleFactory
 SolvingAlgorithms::
 BruteForce
 --
--backtrackStack: Stack&lt;Cell&gt;
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>640</x>
-      <y>504</y>
+      <x>608</x>
+      <y>512</y>
       <w>168</w>
       <h>104</h>
     </coordinates>
@@ -302,8 +302,8 @@ PossibilityEllimination
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>200</x>
-      <y>720</y>
+      <x>40</x>
+      <y>728</y>
       <w>168</w>
       <h>104</h>
     </coordinates>
@@ -317,8 +317,8 @@ SolvedPuzzle
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>400</x>
-      <y>720</y>
+      <x>248</x>
+      <y>728</y>
       <w>168</w>
       <h>104</h>
     </coordinates>
@@ -332,8 +332,8 @@ OnePossibility
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>600</x>
-      <y>720</y>
+      <x>456</x>
+      <y>728</y>
       <w>168</w>
       <h>104</h>
     </coordinates>
@@ -347,8 +347,8 @@ NoPossibilities
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>560</x>
-      <y>552</y>
+      <x>528</x>
+      <y>560</y>
       <w>96</w>
       <h>24</h>
     </coordinates>
@@ -358,19 +358,19 @@ NoPossibilities
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>472</x>
-      <y>656</y>
-      <w>24</w>
+      <x>320</x>
+      <y>664</y>
+      <w>64</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+    <additional_attributes>60.0;10.0;10.0;80.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>312</x>
-      <y>552</y>
+      <x>280</x>
+      <y>560</y>
       <w>104</w>
       <h>24</h>
     </coordinates>
@@ -380,19 +380,19 @@ NoPossibilities
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>312</x>
-      <y>656</y>
-      <w>104</w>
-      <h>80</h>
+      <x>200</x>
+      <y>624</y>
+      <w>184</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>110.0;10.0;10.0;80.0</additional_attributes>
+    <additional_attributes>210.0;10.0;10.0;130.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>560</x>
-      <y>656</y>
+      <x>456</x>
+      <y>664</y>
       <w>96</w>
       <h>80</h>
     </coordinates>
@@ -402,10 +402,10 @@ NoPossibilities
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>400</x>
+      <x>368</x>
       <y>504</y>
       <w>168</w>
-      <h>160</h>
+      <h>168</h>
     </coordinates>
     <panel_attributes>/&lt;&lt;abstract&gt;&gt;/
 AppLayer::
@@ -416,7 +416,8 @@ SolvingAlgorithm
 -stopwatch: Stopwatch
 --
 +Puzzle: Puzzle
-/+IteratePuzzle()/
+/+CheckCell(Cell c): bool/
++Execute(): bool
 +UpdateCell()
 +Start()
 +End()
@@ -426,8 +427,8 @@ SolvingAlgorithm
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>312</x>
-      <y>104</y>
+      <x>280</x>
+      <y>112</y>
       <w>128</w>
       <h>64</h>
     </coordinates>
@@ -443,8 +444,8 @@ bg=yellow
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>616</x>
-      <y>112</y>
+      <x>584</x>
+      <y>120</y>
       <w>104</w>
       <h>64</h>
     </coordinates>
@@ -456,5 +457,31 @@ interface.
 bg=yellow
 </panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>664</x>
+      <y>728</y>
+      <w>168</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>AppLayer::
+SolvingAlgorithms::
+TwinCellsCheck
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>528</x>
+      <y>632</y>
+      <w>152</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;120.0</additional_attributes>
   </element>
 </diagram>

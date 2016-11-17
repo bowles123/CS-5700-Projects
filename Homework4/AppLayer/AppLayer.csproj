@@ -44,9 +44,10 @@
     <Compile Include="SolvingAlgorithms\BruteForce.cs" />
     <Compile Include="SolvingAlgorithms\NoPossibilities.cs" />
     <Compile Include="SolvingAlgorithms\OnePossibility.cs" />
-    <Compile Include="SolvingAlgorithms\PossibilitiesEllimination.cs" />
+    <Compile Include="SolvingAlgorithms\PossibilityEllimination.cs" />
     <Compile Include="SolvingAlgorithms\SolvedPuzzle.cs" />
     <Compile Include="SolvingAlgorithms\SolvingAlgorithm.cs" />
+    <Compile Include="SolvingAlgorithms\TwinCellsCheck.cs" />
     <Compile Include="SudokuComponents\Block.cs" />
     <Compile Include="SudokuComponents\Cell.cs" />
     <Compile Include="SudokuComponents\Column.cs" />

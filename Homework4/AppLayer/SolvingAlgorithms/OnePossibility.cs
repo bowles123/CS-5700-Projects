@@ -4,16 +4,17 @@ namespace AppLayer.SolvingAlgorithms
 {
     public class OnePossibility : SolvingAlgorithm
     {
-        public override void IteratePuzzle()
+        public OnePossibility() { actualType = "ONE_POSSIBILITY"; }
+
+        public override bool CheckCell(Cell cell)
         {
-            foreach (Cell cell in Puzzle)
+            if (cell.Possibilities.Count == 1)
             {
-                if (cell.Value == '_' && cell.Possibilities.Count == 1)
-                {
-                    UpdateCell(cell, cell.Possibilities[0]);
-                    return;
-                }
+                UpdateCell(cell, cell.Possibilities[0]);
+                return true;
             }
+
+            return false;
         }
     }
 }

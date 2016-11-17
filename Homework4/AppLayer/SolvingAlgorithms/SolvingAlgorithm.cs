@@ -7,19 +7,39 @@ namespace AppLayer.SolvingAlgorithms
     {
         private Stopwatch stopwatch;
         private int solveTime;
+        protected string actualType;
 
         public Puzzle Puzzle { get; set; }
-        public abstract void IteratePuzzle();
+        public abstract bool CheckCell(Cell c);
 
         public SolvingAlgorithm()
         {
             stopwatch = new Stopwatch();
         }
 
+        public bool Execute()
+        {
+            bool updated = false;
+            Start();
+
+            foreach (Cell cell in Puzzle)
+            {
+                if (cell.Value.Equals('_'))
+                {
+                    updated = CheckCell(cell);
+                }
+            }
+
+            if (Puzzle.BacktrackingStack.Count == 0 && !updated && actualType.Equals("SOLVED"))
+                Puzzle.Solved = true;
+
+            End();
+            return updated;
+        }
+
         public void Start()
         {
             stopwatch.Start();
-            IteratePuzzle();
         }
 
         public void End()
@@ -34,8 +54,6 @@ namespace AppLayer.SolvingAlgorithms
         public void UpdateCell(Cell cell, char val)
         {
             cell.Update(val);
-            Puzzle.SolvingAlgorithm = new SolvedPuzzle();
-            Puzzle.SolvingAlgorithm.Start();
         }
     }
 }

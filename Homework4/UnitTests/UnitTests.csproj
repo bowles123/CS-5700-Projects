@@ -59,6 +59,7 @@
     <Compile Include="CreateInvalidPuzzleTests.cs" />
     <Compile Include="SolveValidPuzzleTests.cs" />
     <Compile Include="SolveInvalidPuzzleTests.cs" />
+    <Compile Include="SolvingAlgorithmsTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AppLayer\AppLayer.csproj">

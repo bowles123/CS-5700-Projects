@@ -1,20 +1,21 @@
-﻿using System;
-using AppLayer.SudokuComponents;
+﻿using AppLayer.SudokuComponents;
+using System;
 
 namespace AppLayer.SolvingAlgorithms
 {
     public class NoPossibilities : SolvingAlgorithm
     {
-        public override void IteratePuzzle()
+        public NoPossibilities() { actualType = "NO_POSSIBILITIES"; }
+
+        public override bool CheckCell(Cell cell)
         {
-            foreach (Cell cell in Puzzle)
+            if (cell.Possibilities == null)
             {
-                if (cell.Value == '_' && cell.Possibilities == null)
-                {
-                    throw new Exception("Cell with no possibilities.");
-                }
-                return;
+                Console.WriteLine("Invalid Puzzle:\nCell with no possibilities.");
+                return true;
             }
+
+            return false;
         }
     }
 }

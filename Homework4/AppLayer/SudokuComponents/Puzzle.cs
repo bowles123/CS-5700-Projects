@@ -7,7 +7,7 @@ namespace AppLayer.SudokuComponents
 {
     public class Puzzle : IEnumerable
     {
-        public SolvingAlgorithm SolvingAlgorithm { get; set; }
+        public Stack<Puzzle> BacktrackingStack { get; private set; }
         public List<Row> Rows { get; private set; }
         public List<Column> Columns { get; private set; }
         public List<Block> Blocks { get; private set; }
@@ -21,13 +21,12 @@ namespace AppLayer.SudokuComponents
             Columns = c;
             Blocks = b;
             Symbols = s;
-            SolvingAlgorithm = new SolvedPuzzle();
-            SolvingAlgorithm.Puzzle = this;
+            BacktrackingStack = new Stack<Puzzle>();
         }
 
-        public void Solve()
+        public void Solve(List<SolvingAlgorithm> algorithms)
         {
-            SolvingAlgorithm.Start();
+            // Ask Clyde for the one liner.
         }
 
         public void WriteOutPuzzle(string file)

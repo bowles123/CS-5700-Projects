@@ -31,7 +31,7 @@
       <w>120</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>_:OnePossibility_</panel_attributes>
+    <panel_attributes>_:SolvingAlgorithm_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -154,7 +154,7 @@ Solve</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-Start</panel_attributes>
+Execute</panel_attributes>
     <additional_attributes>170.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>

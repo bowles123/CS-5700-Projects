@@ -10,13 +10,13 @@ namespace AppLayer.SolvingAlgorithms
         {
             if (c.Possibilities.Count == 2)
             {
-                foreach(Cell cell in Puzzle.Rows[c.X])
+                foreach(Cell cell in Puzzle.Rows[c.Y - 1])
                 {
                     if (cell.Possibilities.Count == 2 && 
                         cell.Possibilities.Contains(c.Possibilities[0]) &&
                         cell.Possibilities.Contains(c.Possibilities[1]))
                     {
-                        foreach (Cell _cell in Puzzle.Rows[c.X])
+                        foreach (Cell _cell in Puzzle.Rows[c.Y - 1])
                         {
                             if (_cell.X != c.X && _cell.X != cell.X && _cell.Y != c.Y &&
                                 _cell.Y != cell.Y)
@@ -29,13 +29,13 @@ namespace AppLayer.SolvingAlgorithms
                     }
                 }
 
-                foreach (Cell cell in Puzzle.Columns[c.Y])
+                foreach (Cell cell in Puzzle.Columns[c.X - 1])
                 {
                     if (cell.Possibilities.Count == 2 &&
                         cell.Possibilities.Contains(c.Possibilities[0]) &&
                         cell.Possibilities.Contains(c.Possibilities[1]))
                     {
-                        foreach (Cell _cell in Puzzle.Columns[c.Y])
+                        foreach (Cell _cell in Puzzle.Columns[c.X - 1])
                         {
                             if (_cell.X != c.X && _cell.X != cell.X && _cell.Y != c.Y &&
                                 _cell.Y != cell.Y)
@@ -48,13 +48,13 @@ namespace AppLayer.SolvingAlgorithms
                     }
                 }
 
-                foreach (Cell cell in Puzzle.Blocks[c.B])
+                foreach (Cell cell in Puzzle.Blocks[c.B - 1])
                 {
                     if (cell.Possibilities.Count == 2 &&
                         cell.Possibilities.Contains(c.Possibilities[0]) &&
                         cell.Possibilities.Contains(c.Possibilities[1]))
                     {
-                        foreach (Cell _cell in Puzzle.Blocks[c.B])
+                        foreach (Cell _cell in Puzzle.Blocks[c.B - 1])
                         {
                             if (_cell.X != c.X && _cell.X != cell.X && _cell.Y != c.Y &&
                                 _cell.Y != cell.Y)

@@ -9,10 +9,10 @@ namespace AppLayer.SolvingAlgorithms
 
         public override bool CheckCell(Cell cell)
         {
-            if (cell.Possibilities == null)
+            if (cell.Possibilities == null || cell.Possibilities.Count == 0) 
             {
+                Puzzle.Invalid = true;
                 Console.WriteLine("Invalid Puzzle:\nCell with no possibilities.");
-                return true;
             }
 
             return false;

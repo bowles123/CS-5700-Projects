@@ -3,8 +3,8 @@ using AppLayer.SudokuComponents;
 
 namespace UnitTests
 {
-    [TestClass] // Ensure subscribed and possibilities filled correctly.
-    public class CreateCorrectCompletPuzzleTests : CreatePuzzleTest
+    [TestClass]
+    public class CreateCorrectCompletPuzzleTests : PuzzleTest
     {
         [TestMethod]
         public void CreateCorrectCompleteFourByFourPuzzleTest()
@@ -23,6 +23,23 @@ namespace UnitTests
             foreach (Cell cell in puzzle)
             {
                 Assert.IsNotNull(cell);
+                Assert.AreEqual(3, cell.Observers.Count);
+                Assert.IsTrue(cell.Observers.Contains(puzzle.Rows[cell.Y - 1]));
+                Assert.IsTrue(cell.Observers.Contains(puzzle.Columns[cell.X - 1]));
+                Assert.IsTrue(cell.Observers.Contains(puzzle.Blocks[cell.B - 1]));
+
+                if (cell.Value == '-')
+                {
+                    foreach (Cell c in puzzle.Rows[cell.Y - 1])
+                        Assert.IsFalse(cell.Possibilities.Contains(c.Value));
+
+                    foreach (Cell c in puzzle.Columns[cell.X - 1])
+                        Assert.IsFalse(cell.Possibilities.Contains(c.Value));
+
+                    foreach (Cell c in puzzle.Blocks[cell.B - 1])
+                        Assert.IsFalse(cell.Possibilities.Contains(c.Value));
+                }
+
                 Assert.IsTrue(puzzle.Columns[cell.X - 1].Cells.Contains(cell));
                 Assert.AreEqual(cell.X, puzzle.Rows[cell.Y - 1].Cells[cell.X - 1].X);
                 Assert.AreEqual(cell.Y, puzzle.Rows[cell.Y - 1].Cells[cell.X - 1].Y);
@@ -38,7 +55,7 @@ namespace UnitTests
         {
             int block;
             setup();
-            puzzle = factory.Create("Puzzle-9x9-Test.txt");
+            puzzle = factory.Create("Puzzle-Easy-9x9-Test.txt");
             Assert.IsNotNull(puzzle);
             Assert.IsNotNull(puzzle.Rows);
             Assert.IsNotNull(puzzle.Columns);
@@ -50,6 +67,23 @@ namespace UnitTests
             foreach (Cell cell in puzzle)
             {
                 Assert.IsNotNull(cell);
+                Assert.AreEqual(3, cell.Observers.Count);
+                Assert.IsTrue(cell.Observers.Contains(puzzle.Rows[cell.Y - 1]));
+                Assert.IsTrue(cell.Observers.Contains(puzzle.Columns[cell.X - 1]));
+                Assert.IsTrue(cell.Observers.Contains(puzzle.Blocks[cell.B - 1]));
+
+                if (cell.Value == '-')
+                {
+                    foreach (Cell c in puzzle.Rows[cell.Y - 1])
+                        Assert.IsFalse(cell.Possibilities.Contains(c.Value));
+
+                    foreach (Cell c in puzzle.Columns[cell.X - 1])
+                        Assert.IsFalse(cell.Possibilities.Contains(c.Value));
+
+                    foreach (Cell c in puzzle.Blocks[cell.B - 1])
+                        Assert.IsFalse(cell.Possibilities.Contains(c.Value));
+                }
+
                 Assert.IsTrue(puzzle.Columns[cell.X - 1].Cells.Contains(cell));
                 Assert.AreEqual(cell.X, puzzle.Rows[cell.Y - 1].Cells[cell.X - 1].X);
                 Assert.AreEqual(cell.Y, puzzle.Rows[cell.Y - 1].Cells[cell.X - 1].Y);
@@ -65,7 +99,7 @@ namespace UnitTests
         {
             int block;
             setup();
-            puzzle = factory.Create("Puzzle-16x16-Test.txt");
+            puzzle = factory.Create("Puzzle-Easy-16x16-Test.txt");
             Assert.IsNotNull(puzzle);
             Assert.IsNotNull(puzzle.Rows);
             Assert.IsNotNull(puzzle.Columns);
@@ -77,6 +111,23 @@ namespace UnitTests
             foreach (Cell cell in puzzle)
             {
                 Assert.IsNotNull(cell);
+                Assert.AreEqual(3, cell.Observers.Count);
+                Assert.IsTrue(cell.Observers.Contains(puzzle.Rows[cell.Y - 1]));
+                Assert.IsTrue(cell.Observers.Contains(puzzle.Columns[cell.X - 1]));
+                Assert.IsTrue(cell.Observers.Contains(puzzle.Blocks[cell.B - 1]));
+
+                if (cell.Value == '-')
+                {
+                    foreach (Cell c in puzzle.Rows[cell.Y - 1])
+                        Assert.IsFalse(cell.Possibilities.Contains(c.Value));
+
+                    foreach (Cell c in puzzle.Columns[cell.X - 1])
+                        Assert.IsFalse(cell.Possibilities.Contains(c.Value));
+
+                    foreach (Cell c in puzzle.Blocks[cell.B - 1])
+                        Assert.IsFalse(cell.Possibilities.Contains(c.Value));
+                }
+
                 Assert.IsTrue(puzzle.Columns[cell.X - 1].Cells.Contains(cell));
                 Assert.AreEqual(cell.X, puzzle.Rows[cell.Y - 1].Cells[cell.X - 1].X);
                 Assert.AreEqual(cell.Y, puzzle.Rows[cell.Y - 1].Cells[cell.X - 1].Y);
@@ -92,7 +143,7 @@ namespace UnitTests
         {
             int block;
             setup();
-            puzzle = factory.Create("Puzzle-25x25-Test.txt");
+            puzzle = factory.Create("Puzzle-Easy-25x25-Test.txt");
             Assert.IsNotNull(puzzle);
             Assert.IsNotNull(puzzle.Rows);
             Assert.IsNotNull(puzzle.Columns);
@@ -104,6 +155,23 @@ namespace UnitTests
             foreach (Cell cell in puzzle)
             {
                 Assert.IsNotNull(cell);
+                Assert.AreEqual(3, cell.Observers.Count);
+                Assert.IsTrue(cell.Observers.Contains(puzzle.Rows[cell.Y - 1]));
+                Assert.IsTrue(cell.Observers.Contains(puzzle.Columns[cell.X - 1]));
+                Assert.IsTrue(cell.Observers.Contains(puzzle.Blocks[cell.B - 1]));
+
+                if (cell.Value == '-')
+                {
+                    foreach (Cell c in puzzle.Rows[cell.Y - 1])
+                        Assert.IsFalse(cell.Possibilities.Contains(c.Value));
+
+                    foreach (Cell c in puzzle.Columns[cell.X - 1])
+                        Assert.IsFalse(cell.Possibilities.Contains(c.Value));
+
+                    foreach (Cell c in puzzle.Blocks[cell.B - 1])
+                        Assert.IsFalse(cell.Possibilities.Contains(c.Value));
+                }
+
                 Assert.IsTrue(puzzle.Columns[cell.X - 1].Cells.Contains(cell));
                 Assert.AreEqual(cell.X, puzzle.Rows[cell.Y - 1].Cells[cell.X - 1].X);
                 Assert.AreEqual(cell.Y, puzzle.Rows[cell.Y - 1].Cells[cell.X - 1].Y);

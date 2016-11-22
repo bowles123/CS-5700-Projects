@@ -10,11 +10,12 @@ namespace AppLayer.SolvingAlgorithms
         {
             foreach (char possibility in cell.Possibilities)
             {
-                if (!Puzzle.Rows[cell.X].Contains(possibility) &&
-                    !Puzzle.Columns[cell.Y].Contains(possibility) &&
-                    !Puzzle.Blocks[cell.B].Contains(possibility))
+                if (!Puzzle.Rows[cell.Y - 1].Contains(possibility) &&
+                    !Puzzle.Columns[cell.X - 1].Contains(possibility) &&
+                    !Puzzle.Blocks[cell.B - 1].Contains(possibility))
                 {
                     UpdateCell(cell, possibility);
+                    Puzzle.Invalid = true;
                     return true;
                 }
             }

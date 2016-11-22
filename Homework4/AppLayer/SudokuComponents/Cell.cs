@@ -22,13 +22,19 @@ namespace AppLayer.SudokuComponents
         public void Update(char val)
         {
             Value = val;
-            Possibilities = null;
+            Possibilities = new List<char>();
             NotifyObservers();
         }
 
         public void RemovePossibility(char poss)
         {
             Possibilities.Remove(poss); // what happens if it doesn't exist, check.
+        }
+
+        public void AddPossibilities(List<char> possibilities)
+        {
+            foreach (char possibility in possibilities)
+                Possibilities.Add(possibility);
         }
     }
 }

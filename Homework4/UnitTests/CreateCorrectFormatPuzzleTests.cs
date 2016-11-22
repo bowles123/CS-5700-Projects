@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace UnitTests
 {
     [TestClass]
-    public class CreateCorrectFormatPuzzleTests : CreatePuzzleTest
+    public class CreateCorrectFormatPuzzleTests : PuzzleTest
     {
         [TestMethod]
         public void CreateCorrectFormatFourByFourPuzzleTest()
@@ -51,7 +51,7 @@ namespace UnitTests
         public void CreateCorrectFormatNineByNinePuzzleTest()
         {
             setup();
-            puzzle = factory.Create("Puzzle-9x9-Test.txt");
+            puzzle = factory.Create("Puzzle-Easy-9x9-Test.txt");
             Assert.IsNotNull(puzzle);
             Assert.IsTrue(puzzle.Rows.Count == puzzle.Columns.Count);
             Assert.IsTrue(puzzle.Rows.Count == puzzle.Blocks.Count);
@@ -96,7 +96,7 @@ namespace UnitTests
         public void CreateCorrectFormatSixteenBySixteenPuzzleTest()
         {
             setup();
-            puzzle = factory.Create("Puzzle-16x16-Test.txt");
+            puzzle = factory.Create("Puzzle-Easy-16x16-Test.txt");
             Assert.IsNotNull(puzzle);
             Assert.IsTrue(puzzle.Rows.Count == puzzle.Columns.Count);
             Assert.IsTrue(puzzle.Rows.Count == puzzle.Blocks.Count);
@@ -149,7 +149,7 @@ namespace UnitTests
         public void CreateCorrectFormatTwentyFiveByTwentyFivePuzzleTest()
         {
             setup();
-            puzzle = factory.Create("Puzzle-25x25-Test.txt");
+            puzzle = factory.Create("Puzzle-Easy-25x25-Test.txt");
             Assert.IsNotNull(puzzle);
             Assert.IsTrue(puzzle.Rows.Count == puzzle.Columns.Count);
             Assert.IsTrue(puzzle.Rows.Count == puzzle.Blocks.Count);

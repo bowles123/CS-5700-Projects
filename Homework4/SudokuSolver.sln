@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLayer", "AppLayer\AppLay
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{C2C47DB6-DC18-43B5-9ABF-A5CC60E35279}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solver", "SudokuSolver\Solver.csproj", "{EF26CF83-1915-437B-B1F9-AE07E96150B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C2C47DB6-DC18-43B5-9ABF-A5CC60E35279}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2C47DB6-DC18-43B5-9ABF-A5CC60E35279}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2C47DB6-DC18-43B5-9ABF-A5CC60E35279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF26CF83-1915-437B-B1F9-AE07E96150B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF26CF83-1915-437B-B1F9-AE07E96150B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF26CF83-1915-437B-B1F9-AE07E96150B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF26CF83-1915-437B-B1F9-AE07E96150B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

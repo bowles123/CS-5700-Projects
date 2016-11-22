@@ -22,11 +22,18 @@ namespace AppLayer.SudokuComponents
                     possibleSymbols.Add(symbol);
 
             if (possibleSymbols.Count != size)
-                throw new Exception("Not enough symbols given.");
+            {
+                Console.WriteLine("Not enough symbols given.");
+                return null;
+            }
+
             rows = CreateRows(ref reader, size);
 
             if (possibleSymbols.Count != rows.Count)
-                throw new Exception("Non-symmetric puzzle.");
+            {
+                Console.WriteLine("Non-symmetric puzzle.");
+                return null;
+            }
 
             puzzle = new Puzzle(rows, CreateColumns(rows), CreateBlocks(rows), possibleSymbols);
             puzzle.OutFile = file.Insert(file.Length - 4, "-Out");

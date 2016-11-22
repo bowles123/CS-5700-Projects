@@ -1,0 +1,27 @@
+25
+1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+2 - - B A G - D F - - - C - - - 9 N - 1 H O - - J
+6 8 I - 5 - N - - K - - 7 - - P - - C - F - L A 3
+N G - E - 1 - H J 7 D - B - P K 6 A - 5 - I - C 2
+- - - - - - - - - O 2 - 6 - 4 G - - - - - - - - -
+- - - - C I M 4 - 6 - - 5 - - L - F 8 2 9 - - - -
+D - - O 9 - F - - - 4 - G - 6 - - - I - L B - - A
+- - 8 - - - - - - N 3 A 1 C M B - - - - - - F - -
+G - F M I P 1 - C - O L H J K - 3 - D A 4 6 2 - N
+- 1 - - L 5 O - - G F - N - D H - - 2 6 I - - 8 -
+- - - - E - 2 - - - - 9 I 5 - - - - F - D - - - -
+- - O P - 8 - F - - - C J M - - - K - E - 1 H - -
+L - G - - 9 J - B 1 7 - D - I N P - 5 H - - K - F
+9 M H K 1 C 5 6 L I P 4 A B E 8 F D J G N 2 O 3 7
+C - 2 - - E G - 3 H 6 - O - 5 4 M - A I - - 8 - 9
+- - D I - M - N - - - 1 8 G - - - L - 3 - C J - -
+- - - - G - I - - - - 6 E 7 - - - - N - C - - - -
+- D - - N 7 P - - C 5 - 4 - A J - - B L K - - 2 -
+8 - B F J 4 H - 0 - 9 D 3 L G - 7 - P C M N 1 - E
+- - E - - - - - - B J N K 8 H F - - - - - - G - -
+H - - L K - A - - - C - M - 2 - - - O - 7 9 - - 6
+- - - - 8 O 7 A - 5 - - P - - I - 2 L M 3 - - - -
+- - - - - - - - - D B - L - J C - - - - - - - - -
+M F - G - B - P I 3 A - 2 - 7 5 E 9 - 8 - H - 1 4
+K L 5 - H - E - - 8 - - F - - 6 - - 1 - O - 9 7 C
+E - - 6 B N - M H - - - 9 - - - A G - 7 2 5 - - L

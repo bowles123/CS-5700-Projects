@@ -24,14 +24,14 @@ namespace AppLayer.SolvingAlgorithms
 
             foreach (Cell cell in Puzzle)
             {
-                if (cell.Value.Equals('_'))
+                if (cell.Value.Equals('-'))
                 {
                     updated = CheckCell(cell);
+
+                    if (updated)
+                        break;
                 }
             }
-
-            if (Puzzle.BacktrackingStack.Count == 0 && !updated && actualType.Equals("SOLVED"))
-                Puzzle.Solved = true;
 
             End();
             return updated;
@@ -46,9 +46,6 @@ namespace AppLayer.SolvingAlgorithms
         {
             stopwatch.Stop();
             solveTime = stopwatch.Elapsed.Seconds;
-
-            if (Puzzle.Solved)
-                Puzzle.WriteOutPuzzle(Puzzle.OutFile);
         }
 
         public void UpdateCell(Cell cell, char val)

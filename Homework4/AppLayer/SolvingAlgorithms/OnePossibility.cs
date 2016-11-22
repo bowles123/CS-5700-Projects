@@ -11,6 +11,7 @@ namespace AppLayer.SolvingAlgorithms
             if (cell.Possibilities.Count == 1)
             {
                 UpdateCell(cell, cell.Possibilities[0]);
+                Puzzle.Blanks--;
                 return true;
             }
 

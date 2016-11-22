@@ -67,6 +67,10 @@
       <Project>{383e027a-525e-442c-a337-166c289e8fc0}</Project>
       <Name>AppLayer</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SudokuSolver\Solver.csproj">
+      <Project>{ef26cf83-1915-437b-b1f9-ae07e96150b0}</Project>
+      <Name>Solver</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

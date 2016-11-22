@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using AppLayer.SolvingAlgorithms;
 using AppLayer.SudokuComponents;
+using SudokuSolver;
 
 namespace UnitTests
 {
@@ -131,6 +132,38 @@ namespace UnitTests
         }
 
         //[TestMethod]
+        //public void SolveDifficultSixteenBySixteenTest()
+        //{
+        //    setup();
+        //    puzzle = factory.Create("Puzzle-Difficult-16x16-Test.txt");
+        //    Solver solver = new Solver()
+        //    {
+        //        Puzzle = puzzle,
+        //        Techniques = new List<SolvingAlgorithm>() {
+        //            new SolvedPuzzle() { Puzzle = puzzle },
+        //            new NoPossibilities() { Puzzle = puzzle },
+        //            new OnePossibility() { Puzzle = puzzle },
+        //            new PossibilityEllimination() { Puzzle = puzzle },
+        //            new TwinCellsCheck() { Puzzle = puzzle },
+        //            new BruteForce() { Puzzle = puzzle }
+        //        }
+        //    };
+
+        //    solver.Solve();
+        //    Assert.IsTrue(puzzle.Solved);
+        //    Assert.AreEqual(1, puzzle.Solutions);
+        //    Assert.IsFalse(puzzle.Invalid);
+        //    puzzle.WriteOutPuzzle();
+
+        //    foreach (Cell cell in puzzle)
+        //    {
+        //        Assert.AreNotEqual('-', cell);
+        //        Assert.AreEqual(0, cell.Possibilities.Count);
+        //        Assert.IsTrue(puzzle.Symbols.Contains(cell.Value));
+        //    }
+        //}
+
+        //[TestMethod]
         //public void SolveEasyTwentyFiveByTwentyFiveTest()
         //{
         //    setup();
@@ -140,7 +173,8 @@ namespace UnitTests
         //        new NoPossibilities() { Puzzle = puzzle },
         //        new OnePossibility() { Puzzle = puzzle },
         //        new PossibilityEllimination() { Puzzle = puzzle },
-        //        new TwinCellsCheck() { Puzzle = puzzle }
+        //        new TwinCellsCheck() { Puzzle = puzzle },
+        //        new BruteForce() { Puzzle = puzzle }
         //    });
 
         //    Assert.IsTrue(puzzle.Solved);

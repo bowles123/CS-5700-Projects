@@ -3,7 +3,6 @@ using AppLayer.SolvingAlgorithms;
 using System.IO;
 using System.Collections;
 using System.Linq;
-using System;
 
 namespace AppLayer.SudokuComponents
 {
@@ -20,7 +19,7 @@ namespace AppLayer.SudokuComponents
         public bool Invalid { get; set; }
         public string OutFile { get; set; }
 
-        internal Puzzle(List<Row> r, List<Column> c, List<Block> b, List<char> s)
+        public Puzzle(List<Row> r, List<Column> c, List<Block> b, List<char> s)
         {
             Rows = r;
             Columns = c;
@@ -35,35 +34,17 @@ namespace AppLayer.SudokuComponents
         public bool Solve(List<SolvingAlgorithm> algorithms)
         {
             bool changed = true;
-            BacktrackingStack.Push(this);
 
-            while (BacktrackingStack.Count > 0 || Solutions < 2)
+            while (changed)
+                changed = TryTechniques(algorithms);
+
+            if (Solved)
             {
-                if (BacktrackingStack.Count > 0)
-                    BacktrackingStack.Pop();
-
-                while (changed)
-                    changed = TryTechniques(algorithms);
-
-                if (Invalid)
-                {
-                    Console.WriteLine("Invalid Puzzle.");
-                    return false;
-                }
-                else if (Solved)
-                {
-                    Solutions++;
-                    break;
-                }
-                else if (!changed)
-                {
-                    return false;
-                }
+                Solutions++;
+                return true;
             }
 
-            if (Solutions >= 2)
-                return false;
-            return true;
+            return false;
         }
 
         private bool TryTechniques(List<SolvingAlgorithm> techniques)

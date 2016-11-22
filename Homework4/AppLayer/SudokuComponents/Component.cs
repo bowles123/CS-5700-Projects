@@ -22,11 +22,15 @@ namespace AppLayer.SudokuComponents
                 _cell.RemovePossibility(c.Value);
         }
 
-        public bool Contains(char value)
+        public bool ContainsPossibility(char value, int x, int y)
         {
             foreach (Cell cell in Cells)
+            {
+                if (cell.X == x && cell.Y == y) continue;
+
                 if (cell.Possibilities.Contains(value))
                     return true;
+            }
             return false;
         }
 

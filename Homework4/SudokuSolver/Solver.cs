@@ -11,12 +11,25 @@ namespace SudokuSolver
 
         public bool Solve()
         {
-            if (Puzzle.Solve(Techniques))
+            Puzzle.BacktrackingStack.Push(Puzzle);
+
+            while (Puzzle.BacktrackingStack.Count > 0 || Puzzle.Solutions < 2)
             {
-                Puzzle.WriteOutPuzzle();
-                return true;
+                if (Puzzle.BacktrackingStack.Count > 0)
+                    Puzzle = Puzzle.BacktrackingStack.Pop();
+
+                if (Puzzle.Solve(Techniques))
+                {
+                    Puzzle.WriteOutPuzzle();
+                    return true;
+                }
+
+                if (Puzzle.Invalid) return false;
             }
-            return false;
+
+            if (Puzzle.Solutions >= 2)
+                return false;
+            return true;
         }
     }
 }

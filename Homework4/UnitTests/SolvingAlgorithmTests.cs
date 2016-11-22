@@ -43,7 +43,7 @@ namespace UnitTests
         {
             setup(4, new PossibilityEllimination());
             Assert.IsFalse(puzzle.Solved);
-            Assert.IsFalse(changed);
+            Assert.IsTrue(changed);
         }
 
         [TestMethod]

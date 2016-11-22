@@ -28,13 +28,15 @@ namespace AppLayer.SudokuComponents
 
         public void RemovePossibility(char poss)
         {
-            Possibilities.Remove(poss); // what happens if it doesn't exist, check.
+            Possibilities.Remove(poss);
+            //NotifyObservers();
         }
 
         public void AddPossibilities(List<char> possibilities)
         {
             foreach (char possibility in possibilities)
                 Possibilities.Add(possibility);
+            //NotifyObservers();
         }
     }
 }

@@ -497,7 +497,7 @@ TwinCellsCheck
 +Puzzle: Puzzle
 +Techniques: List&lt;SolvingAlgorithm&gt;
 --
-+Solve()
++Solve(): bool
 
 
 </panel_attributes>

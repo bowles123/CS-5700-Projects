@@ -1,0 +1,27 @@
+4
+1 2 3 4
+4 - - 1
+- - - -
+3 - - -
+- - - 3
+
+Multiple Solutions
+4 2 3 1
+1 3 2 4
+3 1 4 2
+2 4 1 3
+
+4 2 3 1
+1 3 2 4
+3 4 1 2
+2 1 4 3
+
+
+Total time: 00:00:00.0040000
+
+Strategy             Uses       Time
+Apply Changes        13         00:00:00.0010000
+Only One Possibility 9          00:00:00
+Only One Place       0          00:00:00
+Twins                0          00:00:00.0020000
+Guess                3          00:00:00.0010000

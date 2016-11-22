@@ -13,7 +13,7 @@ namespace SudokuSolver
         {
             Puzzle.BacktrackingStack.Push(Puzzle);
 
-            while (Puzzle.BacktrackingStack.Count > 0 || Puzzle.Solutions < 2)
+            while (Puzzle.BacktrackingStack.Count > 0 && Puzzle.Solutions < 2)
             {
                 if (Puzzle.BacktrackingStack.Count > 0)
                     Puzzle = Puzzle.BacktrackingStack.Pop();
@@ -21,7 +21,6 @@ namespace SudokuSolver
                 if (Puzzle.Solve(Techniques))
                 {
                     Puzzle.WriteOutPuzzle();
-                    return true;
                 }
 
                 if (Puzzle.Invalid) return false;

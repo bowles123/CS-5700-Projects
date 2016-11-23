@@ -102,6 +102,27 @@ namespace AppLayer.SudokuComponents
             }
         }
 
+        public Puzzle Clone()
+        {
+            Puzzle puzzle = MemberwiseClone() as Puzzle;
+            Stack<Puzzle> stack = new Stack<Puzzle>();
+
+            foreach (Puzzle p in BacktrackingStack)
+            {
+                stack.Push(p);
+            }
+            BacktrackingStack = stack;
+
+            foreach (Cell cell in this)
+            {
+                cell.Subscribe(puzzle.Rows[cell.Y - 1]);
+                cell.Subscribe(puzzle.Columns[cell.X - 1]);
+                cell.Subscribe(puzzle.Blocks[cell.B - 1]);
+            }
+
+            return puzzle;
+        }
+
         public IEnumerator GetEnumerator()
         {
             for (int i = 0; i < Rows.Count; i++)

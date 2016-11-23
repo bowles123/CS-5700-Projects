@@ -12,12 +12,7 @@ namespace AppLayer.SolvingAlgorithms
 
             char val = cell.Possibilities[0];
             cell.RemovePossibility(val);
-            Puzzle p = new Puzzle(Puzzle.Rows, Puzzle.Columns, Puzzle.Blocks, Puzzle.Symbols);
-            p.OutFile = Puzzle.OutFile;
-            p.Blanks = Puzzle.Blanks--;
-
-            foreach (Puzzle puzzle in Puzzle.BacktrackingStack)
-                p.BacktrackingStack.Push(puzzle);
+            Puzzle p = Puzzle.Clone();
 
             cell.Update(val);
             Puzzle.BacktrackingStack.Push(p);

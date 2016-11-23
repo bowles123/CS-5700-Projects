@@ -29,14 +29,14 @@ namespace AppLayer.SudokuComponents
         public void RemovePossibility(char poss)
         {
             Possibilities.Remove(poss);
-            //NotifyObservers();
+            //NotifyObservers(); // Being called over and over again for some reason.
         }
 
         public void AddPossibilities(List<char> possibilities)
         {
             foreach (char possibility in possibilities)
                 Possibilities.Add(possibility);
-            //NotifyObservers();
+            NotifyObservers();
         }
     }
 }

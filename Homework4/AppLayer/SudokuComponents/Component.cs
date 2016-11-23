@@ -14,6 +14,12 @@ namespace AppLayer.SudokuComponents
             Cells = new List<Cell>();
         }
 
+        internal Component(int id, List<Cell> cells)
+        {
+            Id = id;
+            Cells = cells;
+        }
+
         public void Update(Subject cell)
         {
             Cell c = cell as Cell;

@@ -25,18 +25,28 @@ namespace SudokuSolver
                 new SolvedPuzzle() { Puzzle = solver.Puzzle },
                 new NoPossibilities() { Puzzle = solver.Puzzle },
                 new OnePossibility() { Puzzle = solver.Puzzle },
-                new PossibilityEllimination() { Puzzle = solver.Puzzle },
+                new HiddenSolution() { Puzzle = solver.Puzzle },
                 new TwinCellsCheck() { Puzzle = solver.Puzzle }
             };
 
             if (solver.Solve())
             {
                 Console.WriteLine("Puzzle Solved.");
+                Console.Write(solver.Puzzle.ToString());
                 solver.Puzzle.WriteOutPuzzle();
             }
             else
             {
                 Console.WriteLine("Puzzle couldn't be solved.");
+                Console.Write(solver.Puzzle.ToString());
+
+                foreach (Cell cell in solver.Puzzle)
+                {
+                    if (cell.Value == '-')
+                    {
+                        Console.WriteLine(cell.PossibilitiesToString());
+                    }
+                }
             }
         }
 
@@ -48,8 +58,9 @@ namespace SudokuSolver
                 new SolvedPuzzle() { Puzzle = solver.Puzzle },
                 new NoPossibilities() { Puzzle = solver.Puzzle },
                 new OnePossibility() { Puzzle = solver.Puzzle },
-                new PossibilityEllimination() { Puzzle = solver.Puzzle },
-                new TwinCellsCheck() { Puzzle = solver.Puzzle }
+                new HiddenSolution() { Puzzle = solver.Puzzle },
+                new TwinCellsCheck() { Puzzle = solver.Puzzle },
+                new BruteForce() { Puzzle = solver.Puzzle }
             };
 
             Console.WriteLine("{0} {1}x{1}.", difficulty, puzzleSize);
@@ -57,11 +68,21 @@ namespace SudokuSolver
             if (solver.Solve())
             {
                 Console.WriteLine("Puzzle Solved.");
+                Console.Write(solver.Puzzle.ToString());
                 solver.Puzzle.WriteOutPuzzle();
             }
             else
             {
                 Console.WriteLine("Puzzle couldn't be solved.");
+                Console.Write(solver.Puzzle.ToString());
+
+                foreach (Cell cell in solver.Puzzle)
+                {
+                    if (cell.Value == '-')
+                    {
+                        Console.WriteLine(cell.PossibilitiesToString());
+                    }
+                }
             }
         }
 
@@ -111,6 +132,7 @@ namespace SudokuSolver
             {
                 Console.Write("Would you like to try a different puzzle (Y/N)? ");
                 response = Convert.ToChar(Console.Read());
+                Console.ReadLine();
 
                 if (char.ToUpper(response) == 'Y')
                 {

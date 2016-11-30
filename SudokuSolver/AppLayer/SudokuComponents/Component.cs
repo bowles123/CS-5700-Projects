@@ -20,6 +20,14 @@ namespace AppLayer.SudokuComponents
             Cells = cells;
         }
 
+        public override string ToString()
+        {
+            string component = "";
+            foreach (Cell cell in Cells)
+                component += (cell.Value + " ");
+            return component;
+        }
+
         public void Update(Subject cell)
         {
             Cell c = cell as Cell;

@@ -14,7 +14,7 @@ namespace AppLayer.SolvingAlgorithms
 
             char val = cell.Possibilities[0];
             cell.RemovePossibility(val);
-            cell.TryValue(val);
+            cell.Update(val);
 
             BacktrackingStack.Push(Puzzle.Clone());
             return true;

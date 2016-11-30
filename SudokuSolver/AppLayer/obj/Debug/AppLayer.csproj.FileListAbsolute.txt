@@ -3,3 +3,8 @@ C:\Users\User\Documents\CS 5700\Homework4\AppLayer\bin\Debug\AppLayer.pdb
 C:\Users\User\Documents\CS 5700\Homework4\AppLayer\obj\Debug\AppLayer.csprojResolveAssemblyReference.cache
 C:\Users\User\Documents\CS 5700\Homework4\AppLayer\obj\Debug\AppLayer.dll
 C:\Users\User\Documents\CS 5700\Homework4\AppLayer\obj\Debug\AppLayer.pdb
+C:\Users\itcl\Downloads\CS-5700-Projects-master\CS-5700-Projects-master\SudokuSolver\AppLayer\bin\Debug\AppLayer.dll
+C:\Users\itcl\Downloads\CS-5700-Projects-master\CS-5700-Projects-master\SudokuSolver\AppLayer\bin\Debug\AppLayer.pdb
+C:\Users\itcl\Downloads\CS-5700-Projects-master\CS-5700-Projects-master\SudokuSolver\AppLayer\obj\Debug\AppLayer.csprojResolveAssemblyReference.cache
+C:\Users\itcl\Downloads\CS-5700-Projects-master\CS-5700-Projects-master\SudokuSolver\AppLayer\obj\Debug\AppLayer.dll
+C:\Users\itcl\Downloads\CS-5700-Projects-master\CS-5700-Projects-master\SudokuSolver\AppLayer\obj\Debug\AppLayer.pdb

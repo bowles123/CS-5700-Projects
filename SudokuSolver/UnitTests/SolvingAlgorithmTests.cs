@@ -43,7 +43,7 @@ namespace UnitTests
         [TestMethod]
         public void PossibilityElliminationSolveValidTest()
         {
-            setup(4, new PossibilityEllimination());
+            setup(4, new HiddenSolution());
             Assert.IsFalse(puzzle.Solved);
             Assert.IsTrue(changed);
         }

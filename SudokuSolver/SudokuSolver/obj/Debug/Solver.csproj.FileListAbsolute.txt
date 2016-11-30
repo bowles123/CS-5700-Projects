@@ -6,3 +6,11 @@ C:\Users\User\Documents\CS 5700\Homework4\SudokuSolver\bin\Debug\AppLayer.pdb
 C:\Users\User\Documents\CS 5700\Homework4\SudokuSolver\obj\Debug\Solver.csprojResolveAssemblyReference.cache
 C:\Users\User\Documents\CS 5700\Homework4\SudokuSolver\obj\Debug\SudokuSolver.exe
 C:\Users\User\Documents\CS 5700\Homework4\SudokuSolver\obj\Debug\SudokuSolver.pdb
+C:\Users\itcl\Downloads\CS-5700-Projects-master\CS-5700-Projects-master\SudokuSolver\SudokuSolver\bin\Debug\SudokuSolver.exe.config
+C:\Users\itcl\Downloads\CS-5700-Projects-master\CS-5700-Projects-master\SudokuSolver\SudokuSolver\obj\Debug\SudokuSolver.exe
+C:\Users\itcl\Downloads\CS-5700-Projects-master\CS-5700-Projects-master\SudokuSolver\SudokuSolver\obj\Debug\SudokuSolver.pdb
+C:\Users\itcl\Downloads\CS-5700-Projects-master\CS-5700-Projects-master\SudokuSolver\SudokuSolver\bin\Debug\SudokuSolver.exe
+C:\Users\itcl\Downloads\CS-5700-Projects-master\CS-5700-Projects-master\SudokuSolver\SudokuSolver\bin\Debug\SudokuSolver.pdb
+C:\Users\itcl\Downloads\CS-5700-Projects-master\CS-5700-Projects-master\SudokuSolver\SudokuSolver\bin\Debug\AppLayer.dll
+C:\Users\itcl\Downloads\CS-5700-Projects-master\CS-5700-Projects-master\SudokuSolver\SudokuSolver\bin\Debug\AppLayer.pdb
+C:\Users\itcl\Downloads\CS-5700-Projects-master\CS-5700-Projects-master\SudokuSolver\SudokuSolver\obj\Debug\Solver.csprojResolveAssemblyReference.cache

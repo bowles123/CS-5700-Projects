@@ -19,16 +19,19 @@ namespace AppLayer.SudokuComponents
             Y = row;
         }
 
+        public string PossibilitiesToString()
+        {
+            string possibility = string.Format("({0}, {1}): ", X, Y);
+
+            foreach (char poss in Possibilities)
+                possibility += (poss + " ");
+            return possibility;
+        }
+
         public void Update(char val)
         {
             Value = val;
             Possibilities = new List<char>();
-            NotifyObservers();
-        }
-
-        public void TryValue(char val)
-        {
-            Value = val;
             NotifyObservers();
         }
 

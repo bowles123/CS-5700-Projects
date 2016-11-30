@@ -66,6 +66,15 @@ namespace AppLayer.SudokuComponents
             writer.Close();
         }
 
+        public override string ToString()
+        {
+            string puzzle = "";
+
+            foreach (Row row in Rows)
+                puzzle += (row + "\n");
+            return puzzle;
+        }
+
         public void FillPossibilities()
         {
             foreach (Row row in Rows)
@@ -98,6 +107,7 @@ namespace AppLayer.SudokuComponents
             }
         }
 
+        // Not subscribing to the correct components? Possibilities are being updated, but cells are not.
         public Puzzle Clone()
         {
             Puzzle puzzle = MemberwiseClone() as Puzzle;

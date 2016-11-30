@@ -36,7 +36,7 @@ namespace UnitTests
                     new SolvedPuzzle() { Puzzle = puzzle },
                     new NoPossibilities() { Puzzle = puzzle },
                     new OnePossibility() { Puzzle = puzzle },
-                    new PossibilityEllimination() { Puzzle = puzzle },
+                    new HiddenSolution() { Puzzle = puzzle },
                     new TwinCellsCheck() { Puzzle = puzzle },
                     new BruteForce() { Puzzle = puzzle }
                 }
@@ -68,7 +68,7 @@ namespace UnitTests
                     new SolvedPuzzle() { Puzzle = puzzle },
                     new NoPossibilities() { Puzzle = puzzle },
                     new OnePossibility() { Puzzle = puzzle },
-                    new PossibilityEllimination() { Puzzle = puzzle },
+                    new HiddenSolution() { Puzzle = puzzle },
                     new TwinCellsCheck() { Puzzle = puzzle },
                     new BruteForce() { Puzzle = puzzle }
                 }
@@ -100,7 +100,7 @@ namespace UnitTests
                     new SolvedPuzzle() { Puzzle = puzzle },
                     new NoPossibilities() { Puzzle = puzzle },
                     new OnePossibility() { Puzzle = puzzle },
-                    new PossibilityEllimination() { Puzzle = puzzle },
+                    new HiddenSolution() { Puzzle = puzzle },
                     new TwinCellsCheck() { Puzzle = puzzle },
                     new BruteForce() { Puzzle = puzzle }
                 }

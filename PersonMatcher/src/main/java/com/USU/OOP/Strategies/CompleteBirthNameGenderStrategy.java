@@ -10,33 +10,33 @@ import com.USU.OOP.Person.Person;
  * To change this template use File | Settings | File Templates.
  */
 
-public class CompleteBirthNameGenderStrategy implements MatchingStrategy {
+public class CompleteBirthNameGenderStrategy extends MatchingStrategy {
     public CompleteBirthNameGenderStrategy() { super(); }
 
     @Override
-    public String match(Person person1, Person person2) {
-        if(person1.get_gender().equals("null") || person2.get_gender().equals("null") ||
-                person1.get_firstName().equals("null") || person2.get_firstName().equals("null") ||
-                person1.get_middleName().equals("null") || person2.get_middleName().equals("null") ||
-                person1.get_lastName().equals("null") || person2.get_lastName().equals("null") ||
-                person1.get_birthDay() <= 0 || person2.get_birthDay() <= 0 ||
-                person1.get_birthMonth() <= 0 || person2.get_birthMonth() <= 0 ||
-                person1.get_birthYear() <= 0 || person2.get_birthYear() <= 0) {
-            return null;
-        }
-        
-        if (person1.get_gender().equals(person2.get_gender())) {
-            if (person1.get_firstName().equals(person2.get_firstName()) &&
-                    person1.get_middleName().equals(person2.get_middleName()) &&
-                    person1.get_lastName().equals(person2.get_lastName())) {
-                if (person1.get_birthDay() == person2.get_birthDay() &&
-                        person1.get_birthMonth() == person2.get_birthMonth() &&
-                        person1.get_birthYear() == person2.get_birthYear()) {
-                    return "TRUE";
+    protected boolean Compare() {
+        if (first.get_gender().equals(second.get_gender())) {
+            if (first.get_firstName().equals(second.get_firstName()) &&
+                    first.get_middleName().equals(second.get_middleName()) &&
+                    first.get_lastName().equals(second.get_lastName())) {
+                if (first.get_birthDay() == second.get_birthDay() &&
+                        first.get_birthMonth() == second.get_birthMonth() &&
+                        first.get_birthYear() == second.get_birthYear()) {
+                    return true;
                 }
             }
         }
+        return false;
+    }
 
-        return "FALSE";
+    @Override
+    protected boolean IsNull() {
+        return (first.get_gender().equals("null") || second.get_gender().equals("null") ||
+                first.get_firstName().equals("null") || second.get_firstName().equals("null") ||
+                first.get_middleName().equals("null") || second.get_middleName().equals("null") ||
+                first.get_lastName().equals("null") || second.get_lastName().equals("null") ||
+                first.get_birthDay() <= 0 || second.get_birthDay() <= 0 ||
+                first.get_birthMonth() <= 0 || second.get_birthMonth() <= 0 ||
+                first.get_birthYear() <= 0 || second.get_birthYear() <= 0);
     }
 }

@@ -11,40 +11,42 @@ import com.USU.OOP.Person.Person;
  * To change this template use File | Settings | File Templates.
  */
 
-public class IdentNameMotherStrategy implements MatchingStrategy {
+public class IdentNameMotherStrategy extends MatchingStrategy {
+    private Child child;
+    private Child c;
     public IdentNameMotherStrategy() { super(); }
 
     @Override
-    public String match(Person person1, Person person2) {
-        if (person1.getClass().getSimpleName().equals("Adult") || person2.getClass().getSimpleName().equals("Adult")) {
-            return null;
-        }
-        
-        Child child = (Child) person1;
-        Child c = (Child) person2;
-
-        if (child.get_newBornScreeningNumber().equals("null") || c.get_newBornScreeningNumber().equals("null") ||
-                person1.get_firstName().equals("null") || person2.get_firstName().equals("null") ||
-                person1.get_middleName().equals("null") || person2.get_firstName().equals("null") ||
-                person1.get_lastName().equals("null") || person2.get_lastName().equals("null") ||
-                child.get_motherFirstName().equals("null") || c.get_motherFirstName().equals("null") ||
-                child.get_motherMiddleName().equals("null") || c.get_motherMiddleName().equals("null") ||
-                child.get_motherLastName().equals("null") || c.get_motherLastName().equals("null")) {
-            return null;
-        }
-
+    protected boolean Compare() {
         if (child.get_newBornScreeningNumber().equals(c.get_newBornScreeningNumber())) {
-            if (person1.get_firstName().equals(person2.get_firstName()) &&
-                    person1.get_middleName().equals(person2.get_middleName()) &&
-                    person1.get_lastName().equals(person2.get_lastName())) {
+            if (first.get_firstName().equals(second.get_firstName()) &&
+                    first.get_middleName().equals(second.get_middleName()) &&
+                    first.get_lastName().equals(second.get_lastName())) {
                 if(child.get_motherFirstName().equals(c.get_motherFirstName()) &&
                         child.get_motherMiddleName().equals(c.get_motherMiddleName()) &&
                         child.get_motherLastName().equals(c.get_motherLastName())) {
-                    return "TRUE";
+                    return true;
                 }
             }
         }
+        return false;
+    }
 
-        return "FALSE";
+    @Override
+    protected boolean IsNull() {
+        if (first.getClass().getSimpleName().equals("Adult") || second.getClass().getSimpleName().equals("Adult")) {
+            return true;
+        }
+        
+        child = (Child) first;
+        c = (Child) second;
+
+        return (child.get_newBornScreeningNumber().equals("null") || c.get_newBornScreeningNumber().equals("null") ||
+                first.get_firstName().equals("null") || second.get_firstName().equals("null") ||
+                first.get_middleName().equals("null") || second.get_firstName().equals("null") ||
+                first.get_lastName().equals("null") || second.get_lastName().equals("null") ||
+                child.get_motherFirstName().equals("null") || c.get_motherFirstName().equals("null") ||
+                child.get_motherMiddleName().equals("null") || c.get_motherMiddleName().equals("null") ||
+                child.get_motherLastName().equals("null") || c.get_motherLastName().equals("null"));
     }
 }

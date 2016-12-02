@@ -10,26 +10,27 @@ import com.USU.OOP.Person.Person;
  * To change this template use File | Settings | File Templates.
  */
 
-public class IdentNameStrategy implements MatchingStrategy {
+public class IdentNameStrategy extends MatchingStrategy {
     public IdentNameStrategy() { super(); }
 
     @Override
-    public String match(Person person1, Person person2) {
-        if (person1.get_socialSecurityNumber().equals("null") || person2.get_socialSecurityNumber().equals("null") ||
-                person1.get_firstName().equals("null") || person2.get_firstName().equals("null") ||
-                person1.get_middleName().equals("null") || person2.get_middleName().equals("null") ||
-                person1.get_lastName().equals("null") || person2.get_lastName().equals("null")) {
-            return null;
-        }
-
-        if (person1.get_socialSecurityNumber().equals(person2.get_socialSecurityNumber())) {
-            if (person1.get_firstName().equals(person2.get_firstName()) &&
-                    person1.get_middleName().equals(person2.get_middleName()) &&
-                    person1.get_lastName().equals(person2.get_lastName())) {
-                return "TRUE";
+    protected boolean Compare() {
+        if (first.get_socialSecurityNumber().equals(second.get_socialSecurityNumber())) {
+            if (first.get_firstName().equals(second.get_firstName()) &&
+                    first.get_middleName().equals(second.get_middleName()) &&
+                    first.get_lastName().equals(second.get_lastName())) {
+                return true;
             }
         }
 
-        return "FALSE";
+        return false;
+    }
+
+    @Override
+    protected boolean IsNull() {
+        return (first.get_socialSecurityNumber().equals("null") || second.get_socialSecurityNumber().equals("null") ||
+                first.get_firstName().equals("null") || second.get_firstName().equals("null") ||
+                first.get_middleName().equals("null") || second.get_middleName().equals("null") ||
+                first.get_lastName().equals("null") || second.get_lastName().equals("null"));
     }
 }

@@ -9,11 +9,25 @@
     <file path="/Test.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1474071776224" ignored="false" />
     <file path="/PersonMatcherTest.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1474072795541" ignored="false" />
     <file path="/README.txt" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1474077997597" ignored="false" />
-    <file path="/XMLDataImporterExporter.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1474075115912" ignored="false" />
+    <file path="/XMLDataImporterExporter.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480620104624" ignored="false" />
     <file path="/PersonMatcher.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1474075146309" ignored="false" />
-    <file path="/CreatePersonFromXMLTest.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1474078302258" ignored="false" />
-    <file path="/fragment.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1474088070810" ignored="false" />
-    <file path="/CreatePersonFromJSONTest.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1474089764132" ignored="false" />
+    <file path="/CreatePersonFromXMLTest.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480621346390" ignored="false" />
+    <file path="/fragment.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480613187681" ignored="false" />
+    <file path="/CreatePersonFromJSONTest.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480621263957" ignored="false" />
+    <file path="/MatchingStrategy.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480613311096" ignored="false" />
+    <file path="/CompleteBirthNameGenderStrategy.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480564532618" ignored="false" />
+    <file path="/IdentBirthStrategy.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480564548675" ignored="false" />
+    <file path="/IdentBirthMotherStrategy.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480564722778" ignored="false" />
+    <file path="/IdentNameMotherStrategy.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480613211999" ignored="false" />
+    <file path="/IdentNameStrategy.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480613231741" ignored="false" />
+    <file path="/PersonFactory.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480637871360" ignored="false" />
+    <file path="/JSONDataImporterExporter.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480620037543" ignored="false" />
+    <file path="/DataImporterExporter.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480620071261" ignored="false" />
+    <file path="/CreatePersonWithBadFromTests.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480637736177" ignored="false" />
+    <file path="/CreatePersonWithBadDataTests.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480637675923" ignored="false" />
+    <file path="/JSONImporterExporterTests.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480638418697" ignored="false" />
+    <file path="/XMLImporterExporterTests.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480638096882" ignored="false" />
+    <file path="/ImporterExporterTests.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480638392654" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +91,7 @@
       <file leaf-file-name="XMLDataImporterExporter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/XMLDataImporterExporter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="36" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0">
+            <state line="22" column="13" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,62 +100,86 @@
       <file leaf-file-name="PersonMatcherDriver.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/PersonMatcherDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="53" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0">
+            <state line="10" column="13" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonMatcherTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonMatcherTest.java">
+      <file leaf-file-name="PersonMatcher.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/PersonMatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="3" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
+            <state line="11" column="13" selection-start="315" selection-end="315" vertical-scroll-proportion="-1.7359155">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="json_matches.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TextOutput/json_matches.txt">
+      <file leaf-file-name="PersonMatcherTests.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonMatcherTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.8503788">
+            <state line="134" column="20" selection-start="4465" selection-end="4711" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreatePersonFromJSONTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/Creators/CreatePersonFromJSONTest.java">
+      <file leaf-file-name="DataImporterExporter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/DataImporterExporter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="25" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
+            <state line="17" column="22" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreatePersonFromJSONTests.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/CreatePersonTests/CreatePersonFromJSONTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="0" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatchingStrategiesMatchTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/Strategies/MatchingStrategiesMatchTest.java">
+      <file leaf-file-name="CreatePersonWithBadDataTests.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/CreatePersonTests/CreatePersonWithBadDataTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="25" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
+            <state line="10" column="27" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSONDataImporterExporter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/JSONDataImporterExporter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="13" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreatePersonFromXMLTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/Creators/CreatePersonFromXMLTest.java">
+      <file leaf-file-name="ImporterExporterTests.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/DataTests/ImporterExporterTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="31" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
+            <state line="26" column="8" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatchingStrategiesMismatchTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/Strategies/MatchingStrategiesMismatchTest.java">
+      <file leaf-file-name="PersonFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Person/PersonFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="30" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="10" column="37" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,24 +194,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/Strategies/MatchingStrategiesMatchTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/USU/OOP/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/USU/OOP/Testing.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonMatcherTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/USU/OOP/Strategies/IdentNameMotherStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/USU/OOP/Strategies/IdentNameStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/USU/OOP/Strategies/MatchingStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/DataImporterExporter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/JSONDataImporterExporter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/XMLDataImporterExporter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/USU/OOP/PersonMatcher.java" />
-        <option value="$PROJECT_DIR$/README.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/Creators/CreatePersonFromXMLTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/USU/OOP/PersonMatcherDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/Creators/CreatePersonFromJSONTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/Creators/CreatePersonFromXMLTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonMatcherTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/MatchingStrategiesTests/MatchingStrategiesMismatchTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/CreatePersonTests/CreatePersonWithBadFromTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/USU/OOP/Person/PersonFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/CreatePersonTests/CreatePersonWithBadDataTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/DataTests/XMLImporterExporterTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/DataTests/JSONImporterExporterTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/DataTests/ImporterExporterTests.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-6" />
-    <option name="y" value="1" />
-    <option name="width" value="1378" />
-    <option name="height" value="733" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -211,6 +255,318 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatchingStrategiesTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CreatePersonTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Strategies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Person" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -227,21 +583,21 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="TestNG.CreatePersonFromXMLTest">
-    <configuration default="false" name="MatchingStrategiesNullTest" type="TestNG" factoryName="TestNG" temporary="true">
+  <component name="RunManager" selected="TestNG.CreatePersonWithBadDataTests.CreatePersonWithNullObjectTest">
+    <configuration default="false" name="PersonMatcherTests" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="Homework1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.USU.OOP.Strategies" />
-      <option name="MAIN_CLASS_NAME" value="com.USU.OOP.Strategies.MatchingStrategiesNullTest" />
+      <option name="PACKAGE_NAME" value="com.USU.OOP" />
+      <option name="MAIN_CLASS_NAME" value="com.USU.OOP.PersonMatcherTests" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -264,31 +620,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="PersonMatcherDriver" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.USU.OOP.PersonMatcherDriver" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Homework1" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MatchingStrategiesMismatchTest.CompleteBirthNameGenderMismatchTest" type="TestNG" factoryName="TestNG" temporary="true">
+    <configuration default="false" name="PersonMatcherTests.readInXMLDataTest" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="Homework1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.USU.OOP.Strategies" />
-      <option name="MAIN_CLASS_NAME" value="com.USU.OOP.Strategies.MatchingStrategiesMismatchTest" />
-      <option name="METHOD_NAME" value="CompleteBirthNameGenderMismatchTest" />
+      <option name="PACKAGE_NAME" value="com.USU.OOP" />
+      <option name="MAIN_CLASS_NAME" value="com.USU.OOP.PersonMatcherTests" />
+      <option name="METHOD_NAME" value="readInXMLDataTest" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
@@ -306,17 +645,50 @@
       <envs />
       <properties />
       <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55665" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
-    <configuration default="false" name="CreatePersonFromJSONTest" type="TestNG" factoryName="TestNG" temporary="true">
+    <configuration default="false" name="com.USU.OOP" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="Homework1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.USU.OOP.Creators" />
-      <option name="MAIN_CLASS_NAME" value="com.USU.OOP.Creators.CreatePersonFromJSONTest" />
+      <option name="PACKAGE_NAME" value="com.USU.OOP" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CreatePersonWithBadDataTests" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="Homework1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.USU.OOP.CreatePersonTests" />
+      <option name="MAIN_CLASS_NAME" value="com.USU.OOP.CreatePersonTests.CreatePersonWithBadDataTests" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -339,16 +711,16 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="CreatePersonFromXMLTest" type="TestNG" factoryName="TestNG" temporary="true">
+    <configuration default="false" name="CreatePersonWithBadDataTests.CreatePersonWithNullObjectTest" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="Homework1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.USU.OOP.Creators" />
-      <option name="MAIN_CLASS_NAME" value="com.USU.OOP.Creators.CreatePersonFromXMLTest" />
-      <option name="METHOD_NAME" />
+      <option name="PACKAGE_NAME" value="com.USU.OOP.CreatePersonTests" />
+      <option name="MAIN_CLASS_NAME" value="com.USU.OOP.CreatePersonTests.CreatePersonWithBadDataTests" />
+      <option name="METHOD_NAME" value="CreatePersonWithNullObjectTest" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -364,8 +736,12 @@
       <envs />
       <properties />
       <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58069" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -431,19 +807,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.MatchingStrategiesNullTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PersonMatcherDriver" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.MatchingStrategiesMismatchTest.CompleteBirthNameGenderMismatchTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.CreatePersonFromJSONTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.CreatePersonFromXMLTest" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.PersonMatcherTests" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.PersonMatcherTests.readInXMLDataTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.com.USU.OOP" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.CreatePersonWithBadDataTests" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.CreatePersonWithBadDataTests.CreatePersonWithNullObjectTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.CreatePersonFromXMLTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.CreatePersonFromJSONTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PersonMatcherDriver" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.MatchingStrategiesMismatchTest.CompleteBirthNameGenderMismatchTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.MatchingStrategiesNullTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.CreatePersonWithBadDataTests.CreatePersonWithNullObjectTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.CreatePersonWithBadDataTests" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.com.USU.OOP" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.PersonMatcherTests.readInXMLDataTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.PersonMatcherTests" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +850,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="1" width="1378" height="733" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -485,16 +861,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33105803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25911853" sideWeight="0.67235494" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2590909" sideWeight="0.6006826" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33105803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -564,100 +940,115 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/Strategies/MatchingStrategiesMismatchTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/MatchingStrategiesTests/MatchingStrategiesNullTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="30" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0">
+        <state line="13" column="24" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/PersonMatcher.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Strategies/MatchingStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="74" selection-start="2563" selection-end="2563" vertical-scroll-proportion="0.0" />
+        <state line="16" column="41" selection-start="363" selection-end="400" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Creators/CreateAdultFromXML.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/MatchingStrategiesTests/MatchingStrategiesMismatchTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="116" selection-start="939" selection-end="1016" vertical-scroll-proportion="0.0" />
+        <state line="13" column="5" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Person/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/CreatePersonTests/CreatePersonFromXMLTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" />
+        <state line="32" column="0" selection-start="813" selection-end="924" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/Strategies/MatchingStrategiesNullTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/MatchingStrategiesTests/MatchingStrategiesMatchTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0" />
+        <state line="14" column="32" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Creators/CreateAdultFromJSON.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Person/PersonFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0" />
+        <state line="10" column="37" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/JSON/PersonTestSet.json">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/CreatePersonTests/CreatePersonWithBadDataTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="73" selection-start="72" selection-end="73" vertical-scroll-proportion="0.0" />
+        <state line="10" column="27" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/DataImporterExporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="22" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/XMLDataImporterExporter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="36" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0">
+        <state line="22" column="13" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/JSON/PersonTestSet_05.json">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/CreatePersonTests/CreatePersonFromJSONTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="9" selection-start="5" selection-end="9" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/Creators/CreatePersonFromJSONTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="25" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
+        <state line="29" column="0" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/Creators/CreatePersonFromXMLTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/JSONDataImporterExporter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="31" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
+        <state line="24" column="13" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/Strategies/MatchingStrategiesMatchTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/DataTests/ImporterExporterTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
+        <state line="26" column="8" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonMatcherTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonMatcherTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="3" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
+        <state line="134" column="20" selection-start="4465" selection-end="4711" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/PersonMatcherDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="53" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0">
+        <state line="10" column="13" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/Strategies/MatchingStrategiesMismatchTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/PersonMatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="30" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TextOutput/json_matches.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.8503788">
+        <state line="11" column="13" selection-start="315" selection-end="315" vertical-scroll-proportion="-1.7359155">
           <folding />
         </state>
       </provider>

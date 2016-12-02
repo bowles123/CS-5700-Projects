@@ -1,7 +1,5 @@
 package com.USU.OOP.Data;
 
-import com.USU.OOP.Creators.CreateAdultFromXML;
-import com.USU.OOP.Creators.CreateChildFromXML;
 import com.USU.OOP.Person.Person;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -58,9 +56,9 @@ public class XMLDataImporterExporter extends DataImporterExporter {
                 element = (Element) node;
 
                 if (element.getAttributes().item(0).getNodeValue().equals("Adult")) {
-                    people.add(createPerson(element, new CreateAdultFromXML()));
+                    people.add(factory.Create("Adult", "XML", element));
                 } else {
-                    people.add(createPerson(element, new CreateChildFromXML()));
+                    people.add(factory.Create("Child", "XML", element));
                 }
             }
         }

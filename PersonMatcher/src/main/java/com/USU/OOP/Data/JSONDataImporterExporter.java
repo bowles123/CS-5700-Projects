@@ -1,7 +1,5 @@
 package com.USU.OOP.Data;
 
-import com.USU.OOP.Creators.CreateAdultFromJSON;
-import com.USU.OOP.Creators.CreateChildFromJSON;
 import com.USU.OOP.Person.Person;
 
 import java.io.*;
@@ -11,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import com.USU.OOP.Person.PersonFactory;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -34,9 +33,9 @@ public class JSONDataImporterExporter extends DataImporterExporter {
                 JSONObject object = objects.getJSONObject(i);
 
                 if (object.getString("__type").contains("Adult")) {
-                    people.add(createPerson(object, new CreateAdultFromJSON()));
+                    people.add(factory.Create("Adult", "JSON", object));
                 } else {
-                    people.add(createPerson(object, new CreateChildFromJSON()));
+                    people.add(factory.Create("Child", "XML", object));
                 }
             }
 

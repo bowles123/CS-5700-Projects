@@ -10,26 +10,26 @@ import com.USU.OOP.Person.Person;
  * To change this template use File | Settings | File Templates.
  */
 
-public class IdentBirthStrategy implements MatchingStrategy {
+public class IdentBirthStrategy extends MatchingStrategy {
     public IdentBirthStrategy() { super(); }
 
     @Override
-    public String match(Person person1, Person person2) {
-        if (person1.get_socialSecurityNumber().equals("null") || person2.get_socialSecurityNumber().equals("null") ||
-                person1.get_birthDay() <= 0 || person2.get_birthDay() <= 0 ||
-                person1.get_birthMonth() <= 0 || person2.get_birthMonth() <= 0 ||
-                person1.get_birthYear() <= 0 || person2.get_birthYear() <= 0) {
-            return null;
-        }
-
-        if (person1.get_socialSecurityNumber().equals(person2.get_socialSecurityNumber())) {
-            if (person1.get_birthDay() == person2.get_birthDay() &&
-                    person1.get_birthMonth() == person2.get_birthMonth() &&
-                    person1.get_birthYear() == person2.get_birthYear()) {
-                return "TRUE";
+    protected boolean Compare() {
+        if (first.get_socialSecurityNumber().equals(second.get_socialSecurityNumber())) {
+            if (first.get_birthDay() == second.get_birthDay() &&
+                    first.get_birthMonth() == second.get_birthMonth() &&
+                    first.get_birthYear() == second.get_birthYear()) {
+                return true;
             }
         }
+        return false;
+    }
 
-        return "FALSE";
+    @Override
+    protected boolean IsNull() {
+        return (first.get_socialSecurityNumber().equals("null") || second.get_socialSecurityNumber().equals("null") ||
+                first.get_birthDay() <= 0 || second.get_birthDay() <= 0 ||
+                first.get_birthMonth() <= 0 || second.get_birthMonth() <= 0 ||
+                first.get_birthYear() <= 0 || second.get_birthYear() <= 0);
     }
 }

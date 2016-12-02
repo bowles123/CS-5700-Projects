@@ -43,7 +43,7 @@ public class PersonMatcher {
         for (int i = 0; i < people.size(); i++) {
             for (int j = i + 1; j < people.size(); j++) {
                 for (MatchingStrategy strategy : strategies) {
-                    match = strategy.match(people.get(i), people.get(j));
+                    match = strategy.Match(people.get(i), people.get(j));
                     if (match != null) {
                         if (match.equals("TRUE")) {
                             m.add(people.get(j));

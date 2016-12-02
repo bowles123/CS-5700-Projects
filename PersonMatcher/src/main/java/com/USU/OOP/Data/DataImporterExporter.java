@@ -1,7 +1,7 @@
 package com.USU.OOP.Data;
 
-import com.USU.OOP.Creators.CreatePerson;
 import com.USU.OOP.Person.Person;
+import com.USU.OOP.Person.PersonFactory;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,6 +18,7 @@ import java.util.Map;
 public abstract class DataImporterExporter {
     protected List<Person> people;
     protected String filePath;
+    protected PersonFactory factory = new PersonFactory();
 
     public abstract void parseFile(String fileName);
     public abstract void saveData(String fileName, Map<Person, List<Person>> matches);
@@ -25,9 +26,5 @@ public abstract class DataImporterExporter {
 
     public DataImporterExporter() {
         people = new ArrayList<Person>();
-    }
-
-    protected Person createPerson(Object object, CreatePerson creator) {
-        return creator.create(object);
     }
 }

@@ -1,4 +1,4 @@
-package com.USU.OOP.MatchingStrategyTest;
+package com.USU.OOP.MatchingStrategyTests;
 
 import com.USU.OOP.Person.Adult;
 import com.USU.OOP.Person.Child;

@@ -20,7 +20,7 @@ public abstract class DataImporterExporter {
     protected String filePath;
     protected PersonFactory factory = new PersonFactory();
 
-    public abstract void parseFile(String fileName);
+    public abstract boolean parseFile(String fileName);
     public abstract void saveData(String fileName, Map<Person, List<Person>> matches);
     public List<Person> getPeople() { return people; }
 

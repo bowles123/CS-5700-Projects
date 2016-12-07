@@ -27,20 +27,26 @@ public class XMLDataImporterExporter extends DataImporterExporter {
     }
 
     @Override
-    public void parseFile(String fileName) {
+    public boolean parseFile(String fileName) {
+        if (fileName == null) return false;
         String file = filePath + fileName;
+
         try {
             File inputFile = new File(file);
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
             Document document = documentBuilder.parse(inputFile);
             createObjects(document);
+            return true;
         } catch(Exception e) {
             e.printStackTrace();
         }
+        return false;
     }
 
-    private void createObjects(Document doc) {
+    public void createObjects(Document doc) {
+        if (doc == null) return;
+
         NodeList nodeList;
         Node node;
         Element element;

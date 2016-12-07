@@ -2,28 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17cf87f2-7bfb-4695-a869-e506ed384a5a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/JSONImporterExporterTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonMatcherTests/PersonMatcherInvalidInputTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/XMLImporterExporterTests.java" />
-      <change type="DELETED" beforePath="C:\Users\User\Documents\CS 5700\Code\PersonMatcher\src\test\java\com\USU\OOP\DataTests\ImporterExporterTests.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\User\Documents\CS 5700\Code\PersonMatcher\src\test\java\com\USU\OOP\CreatePersonTests\CreatePersonFromJSONTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonFactoryTests/CreatePersonFromJSONTests.java" />
-      <change type="MOVED" beforePath="C:\Users\User\Documents\CS 5700\Code\PersonMatcher\src\test\java\com\USU\OOP\CreatePersonTests\CreatePersonFromXMLTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonFactoryTests/CreatePersonFromXMLTests.java" />
-      <change type="MOVED" beforePath="C:\Users\User\Documents\CS 5700\Code\PersonMatcher\src\test\java\com\USU\OOP\CreatePersonTests\CreatePersonWithBadDataTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonFactoryTests/CreatePersonWithBadDataTests.java" />
-      <change type="MOVED" beforePath="C:\Users\User\Documents\CS 5700\Code\PersonMatcher\src\test\java\com\USU\OOP\MatchingStrategiesTests\MatchingStrategiesMatchTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/USU/OOP/MatchingStrategyTest/MatchingStrategiesMatchTests.java" />
-      <change type="MOVED" beforePath="C:\Users\User\Documents\CS 5700\Code\PersonMatcher\src\test\java\com\USU\OOP\MatchingStrategiesTests\MatchingStrategiesMismatchTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/USU/OOP/MatchingStrategyTest/MatchingStrategiesMismatchTests.java" />
-      <change type="MOVED" beforePath="C:\Users\User\Documents\CS 5700\Code\PersonMatcher\src\test\java\com\USU\OOP\MatchingStrategiesTests\MatchingStrategiesNullTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/USU/OOP/MatchingStrategyTest/MatchingStrategiesNullTests.java" />
-      <change type="MOVED" beforePath="C:\Users\User\Documents\CS 5700\Code\PersonMatcher\src\test\java\com\USU\OOP\PersonMatcherTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonMatcherTests/PersonMatcherValidInputTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/USU/OOP/Strategies/CompleteBirthNameGenderStrategy.java" afterPath="$PROJECT_DIR$/src/main/java/com/USU/OOP/Strategies/CompleteBirthNameGenderStrategy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/USU/OOP/Strategies/IdentBirthMotherStrategy.java" afterPath="$PROJECT_DIR$/src/main/java/com/USU/OOP/Strategies/IdentBirthMotherStrategy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/USU/OOP/Strategies/IdentBirthStrategy.java" afterPath="$PROJECT_DIR$/src/main/java/com/USU/OOP/Strategies/IdentBirthStrategy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/USU/OOP/Strategies/IdentNameMotherStrategy.java" afterPath="$PROJECT_DIR$/src/main/java/com/USU/OOP/Strategies/IdentNameMotherStrategy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/USU/OOP/Strategies/IdentNameStrategy.java" afterPath="$PROJECT_DIR$/src/main/java/com/USU/OOP/Strategies/IdentNameStrategy.java" />
+      <change type="MOVED" beforePath="C:\Users\User\Documents\CS 5700\Code\PersonMatcher\src\test\java\com\USU\OOP\MatchingStrategyTest\MatchingStrategiesMatchTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/USU/OOP/MatchingStrategyTests/MatchingStrategiesMatchTests.java" />
+      <change type="MOVED" beforePath="C:\Users\User\Documents\CS 5700\Code\PersonMatcher\src\test\java\com\USU\OOP\MatchingStrategyTest\MatchingStrategiesMismatchTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/USU/OOP/MatchingStrategyTests/MatchingStrategiesMismatchTests.java" />
+      <change type="MOVED" beforePath="C:\Users\User\Documents\CS 5700\Code\PersonMatcher\src\test\java\com\USU\OOP\MatchingStrategyTest\MatchingStrategiesNullTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/USU/OOP/MatchingStrategyTests/MatchingStrategiesNullTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/DataImporterExporter.java" afterPath="$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/DataImporterExporter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/JSONDataImporterExporter.java" afterPath="$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/JSONDataImporterExporter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/USU/OOP/Strategies/MatchingStrategy.java" afterPath="$PROJECT_DIR$/src/main/java/com/USU/OOP/Strategies/MatchingStrategy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/USU/OOP/PersonMatcher.java" afterPath="$PROJECT_DIR$/src/main/java/com/USU/OOP/PersonMatcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/JSONImporterExporterTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/JSONImporterExporterTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/TextImporterExporter.java" afterPath="$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/TextImporterExporter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/XMLDataImporterExporter.java" afterPath="$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/XMLDataImporterExporter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/XMLImporterExporterTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/XMLImporterExporterTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Homework1.iws" />
@@ -33,7 +20,7 @@
     <file path="/Test.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1474071776224" ignored="false" />
     <file path="/PersonMatcherTest.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1474072795541" ignored="false" />
     <file path="/README.txt" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1474077997597" ignored="false" />
-    <file path="/XMLDataImporterExporter.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1481091556020" ignored="false" />
+    <file path="/XMLDataImporterExporter.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1481134044118" ignored="false" />
     <file path="/PersonMatcher.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1481092114634" ignored="false" />
     <file path="/CreatePersonFromXMLTest.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480621346390" ignored="false" />
     <file path="/fragment.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480613187681" ignored="false" />
@@ -45,16 +32,16 @@
     <file path="/IdentNameMotherStrategy.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480613211999" ignored="false" />
     <file path="/IdentNameStrategy.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480613231741" ignored="false" />
     <file path="/PersonFactory.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480637871360" ignored="false" />
-    <file path="/JSONDataImporterExporter.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1481092402757" ignored="false" />
-    <file path="/DataImporterExporter.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480620071261" ignored="false" />
+    <file path="/JSONDataImporterExporter.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1481133762488" ignored="false" />
+    <file path="/DataImporterExporter.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1481130554610" ignored="false" />
     <file path="/CreatePersonWithBadFromTests.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480637736177" ignored="false" />
     <file path="/CreatePersonWithBadDataTests.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1480637675923" ignored="false" />
-    <file path="/JSONImporterExporterTests.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1481093134975" ignored="false" />
-    <file path="/XMLImporterExporterTests.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1481093231708" ignored="false" />
+    <file path="/JSONImporterExporterTests.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1481133962917" ignored="false" />
+    <file path="/XMLImporterExporterTests.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1481133645162" ignored="false" />
     <file path="/ImporterExporterTests.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1481091469714" ignored="false" />
-    <file path="/Dummy.txt" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1481084039319" ignored="false" />
+    <file path="/Dummy.txt" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1481134099780" ignored="false" />
     <file path="/MatchingStrategiesNullTests.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1481091322356" ignored="false" />
-    <file path="/TextImporterExporter.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1481091607426" ignored="false" />
+    <file path="/TextImporterExporter.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1481130563191" ignored="false" />
     <file path="/PersonMatcherInvalidInputTests.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1481092832159" ignored="false" />
     <file path="/DataImporterExporterBadInputTests.java" changelist="17cf87f2-7bfb-4695-a869-e506ed384a5a" time="1481092459017" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,7 +58,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -108,6 +94,39 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/JSONImporterExporterTests.java" line="27" class="com.USU.OOP.DataImporterExporterTests.JSONImporterExporterTests" package="com.USU.OOP.DataImporterExporterTests">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/XMLImporterExporterTests.java" line="64" class="com.USU.OOP.DataImporterExporterTests.XMLImporterExporterTests" package="com.USU.OOP.DataImporterExporterTests">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -117,82 +136,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CreatePersonFromJSONTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonFactoryTests/CreatePersonFromJSONTests.java">
+      <file leaf-file-name="XMLDataImporterExporter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/XMLDataImporterExporter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="21" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
+            <state line="47" column="0" selection-start="1379" selection-end="1379" vertical-scroll-proportion="-0.05703422">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonMatcher.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/PersonMatcher.java">
+      <file leaf-file-name="PersonMatcherValidInputTests.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonMatcherTests/PersonMatcherValidInputTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="5" selection-start="2572" selection-end="2572" vertical-scroll-proportion="3.5981596">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MatchingStrategiesNullTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/MatchingStrategyTest/MatchingStrategiesNullTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="23" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MatchingStrategiesMismatchTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/MatchingStrategyTest/MatchingStrategiesMismatchTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="16" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MatchingStrategy.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Strategies/MatchingStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="38" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MatchingStrategiesMatchTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/MatchingStrategyTest/MatchingStrategiesMatchTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="28" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSONImporterExporterTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/JSONImporterExporterTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="5" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XMLImporterExporterTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/XMLImporterExporterTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="45" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreatePersonWithBadDataTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonFactoryTests/CreatePersonWithBadDataTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="26" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
+            <state line="20" column="27" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -201,10 +157,62 @@
       <file leaf-file-name="CreatePersonFromXMLTests.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonFactoryTests/CreatePersonFromXMLTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="21" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="67" column="34" selection-start="822" selection-end="2436" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataImporterExporter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/DataImporterExporter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="27" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextImporterExporter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/TextImporterExporter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="5" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSONDataImporterExporter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/JSONDataImporterExporter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="0" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSONImporterExporterTests.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/JSONImporterExporterTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="31" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLImporterExporterTests.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/XMLImporterExporterTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="0" selection-start="2354" selection-end="2354" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonMatcherInvalidInputTests.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonMatcherTests/PersonMatcherInvalidInputTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="31" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -227,22 +235,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonFactoryTests/CreatePersonWithBadDataTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/MatchingStrategiesTests/MatchingStrategiesNullTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/ImporterExporterTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/TextImporterExporter.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/TextImporterExporterTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonMatcherTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonMatcherValidInputTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/JSONDataImporterExporter.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/DataImporterExporterBadInputTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonMatcherTests/PersonMatcherValidInputTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonMatcherTests/PersonMatcherInvalidInputTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/JSONImporterExporterTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/XMLDataImporterExporter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/XMLImporterExporterTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/USU/OOP/PersonMatcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/USU/OOP/Strategies/MatchingStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/DataImporterExporter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/TextImporterExporter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/XMLImporterExporterTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/JSONDataImporterExporter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/JSONImporterExporterTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/XMLDataImporterExporter.java" />
       </list>
     </option>
   </component>
@@ -278,7 +286,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -316,6 +323,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonMatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JSON" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,7 +446,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MatchingStrategyTest" />
+              <option name="myItemId" value="MatchingStrategyTests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -606,6 +647,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -620,21 +662,21 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="TestNG.MatchingStrategiesMatchTests">
-    <configuration default="false" name="CreatePersonFromXMLTests" type="TestNG" factoryName="TestNG" temporary="true">
+  <component name="RunManager" selected="TestNG.XMLImporterExporterTests.CreateObjectsTest">
+    <configuration default="false" name="JSONImporterExporterTests" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="Homework1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.USU.OOP.PersonFactoryTests" />
-      <option name="MAIN_CLASS_NAME" value="com.USU.OOP.PersonFactoryTests.CreatePersonFromXMLTests" />
+      <option name="PACKAGE_NAME" value="com.USU.OOP.DataImporterExporterTests" />
+      <option name="MAIN_CLASS_NAME" value="com.USU.OOP.DataImporterExporterTests.JSONImporterExporterTests" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -657,13 +699,48 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="CreatePersonFromJSONTests" type="TestNG" factoryName="TestNG" temporary="true">
+    <configuration default="false" name="JSONImporterExporterTests.CreateObjectsTest" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="Homework1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.USU.OOP.PersonFactoryTests" />
-      <option name="MAIN_CLASS_NAME" value="com.USU.OOP.PersonFactoryTests.CreatePersonFromJSONTests" />
+      <option name="PACKAGE_NAME" value="com.USU.OOP.DataImporterExporterTests" />
+      <option name="MAIN_CLASS_NAME" value="com.USU.OOP.DataImporterExporterTests.JSONImporterExporterTests" />
+      <option name="METHOD_NAME" value="CreateObjectsTest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58109" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="XMLImporterExporterTests" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="Homework1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.USU.OOP.DataImporterExporterTests" />
+      <option name="MAIN_CLASS_NAME" value="com.USU.OOP.DataImporterExporterTests.XMLImporterExporterTests" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -686,16 +763,16 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="MatchingStrategiesNullTests" type="TestNG" factoryName="TestNG" temporary="true">
+    <configuration default="false" name="XMLImporterExporterTests.CreateObjectsTest" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="Homework1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.USU.OOP.MatchingStrategyTest" />
-      <option name="MAIN_CLASS_NAME" value="com.USU.OOP.MatchingStrategyTest.MatchingStrategiesNullTests" />
-      <option name="METHOD_NAME" />
+      <option name="PACKAGE_NAME" value="com.USU.OOP.DataImporterExporterTests" />
+      <option name="MAIN_CLASS_NAME" value="com.USU.OOP.DataImporterExporterTests.XMLImporterExporterTests" />
+      <option name="METHOD_NAME" value="CreateObjectsTest" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -711,46 +788,21 @@
       <envs />
       <properties />
       <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58193" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
-    <configuration default="false" name="MatchingStrategiesMismatchTests" type="TestNG" factoryName="TestNG" temporary="true">
+    <configuration default="false" name="PersonMatcherValidInputTests" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="Homework1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.USU.OOP.MatchingStrategyTest" />
-      <option name="MAIN_CLASS_NAME" value="com.USU.OOP.MatchingStrategyTest.MatchingStrategiesMismatchTests" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MatchingStrategiesMatchTests" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="Homework1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.USU.OOP.MatchingStrategyTest" />
-      <option name="MAIN_CLASS_NAME" value="com.USU.OOP.MatchingStrategyTest.MatchingStrategiesMatchTests" />
+      <option name="PACKAGE_NAME" value="com.USU.OOP.PersonMatcherTests" />
+      <option name="MAIN_CLASS_NAME" value="com.USU.OOP.PersonMatcherTests.PersonMatcherValidInputTests" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -836,19 +888,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.CreatePersonFromXMLTests" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.CreatePersonFromJSONTests" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.MatchingStrategiesNullTests" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.MatchingStrategiesMismatchTests" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.MatchingStrategiesMatchTests" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.JSONImporterExporterTests" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.JSONImporterExporterTests.CreateObjectsTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.XMLImporterExporterTests" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.XMLImporterExporterTests.CreateObjectsTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.PersonMatcherValidInputTests" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.MatchingStrategiesMatchTests" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.MatchingStrategiesMismatchTests" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.MatchingStrategiesNullTests" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.CreatePersonFromJSONTests" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.CreatePersonFromXMLTests" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.XMLImporterExporterTests.CreateObjectsTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.PersonMatcherValidInputTests" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.XMLImporterExporterTests" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.JSONImporterExporterTests" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.JSONImporterExporterTests.CreateObjectsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -878,25 +930,45 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33105803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2590909" sideWeight="0.67235494" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32764506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2590909" sideWeight="0.6006826" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -969,73 +1041,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/JSONDataImporterExporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="891" selection-end="891" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/TextImporterExporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="44" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/DataImporterExporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/XMLDataImporterExporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="44" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonMatcherTests/PersonMatcherValidInputTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonMatcherTests/PersonMatcherInvalidInputTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="31" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonFactoryTests/CreatePersonWithBadDataTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="26" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonFactoryTests/CreatePersonFromXMLTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="21" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonFactoryTests/CreatePersonFromJSONTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Strategies/MatchingStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="38" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
@@ -1043,44 +1048,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/MatchingStrategyTest/MatchingStrategiesNullTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/MatchingStrategyTests/MatchingStrategiesNullTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="23" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
+        <state line="14" column="23" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/MatchingStrategyTest/MatchingStrategiesMismatchTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/MatchingStrategyTests/MatchingStrategiesMismatchTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
+        <state line="14" column="16" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/MatchingStrategyTest/MatchingStrategiesMatchTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/MatchingStrategyTests/MatchingStrategiesMatchTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/XMLImporterExporterTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="45" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/JSONImporterExporterTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
+        <state line="14" column="28" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/PersonMatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="5" selection-start="2572" selection-end="2572" vertical-scroll-proportion="3.5981596">
+        <state line="76" column="5" selection-start="2572" selection-end="2572" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonFactoryTests/CreatePersonFromJSONTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="34" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/DataImporterExporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="27" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/TextImporterExporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="5" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/JSON/TestPerson.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="271" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/JSONImporterExporterTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="31" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonMatcherTests/PersonMatcherInvalidInputTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="31" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonMatcherTests/PersonMatcherValidInputTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="27" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/JSONDataImporterExporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/PersonFactoryTests/CreatePersonFromXMLTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="34" selection-start="822" selection-end="2436" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/USU/OOP/DataImporterExporterTests/XMLImporterExporterTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="0" selection-start="2354" selection-end="2354" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/USU/OOP/Data/XMLDataImporterExporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="1379" selection-end="1379" vertical-scroll-proportion="-0.05703422">
           <folding />
         </state>
       </provider>

@@ -15,7 +15,7 @@ import java.util.Map;
 
 public class TextImporterExporter extends DataImporterExporter {
     @Override
-    public void parseFile(String fileName) throws NotImplementedException {
+    public boolean parseFile(String fileName) throws NotImplementedException {
         System.out.println("Parsing data from a text file is not implemented.");
         throw new NotImplementedException();
     }

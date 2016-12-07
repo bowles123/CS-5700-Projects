@@ -26,7 +26,9 @@ import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 public class JSONDataImporterExporter extends DataImporterExporter {
     private String jsonString;
 
-    private  void createObjects() {
+    public void createObjects() {
+        if (!jsonString.startsWith("[") && !jsonString.startsWith("{")) return;
+
         try {
             JSONArray objects = new JSONArray(jsonString);
 
@@ -58,12 +60,14 @@ public class JSONDataImporterExporter extends DataImporterExporter {
     }
 
     @Override
-    public void parseFile(String fileName) {
+    public boolean parseFile(String fileName) {
+        if (fileName == null) return false;
         String file = filePath + fileName;
 
         try {
             jsonString = new String(Files.readAllBytes(Paths.get(file)));
             createObjects();
+            return true;
         }
         catch(FileNotFoundException exception) {
             System.out.println("Unable to locate file: " + fileName);
@@ -73,5 +77,6 @@ public class JSONDataImporterExporter extends DataImporterExporter {
             System.out.println("Unable to parse file: " + fileName);
             exception.printStackTrace();
         }
+        return false;
     }
 }

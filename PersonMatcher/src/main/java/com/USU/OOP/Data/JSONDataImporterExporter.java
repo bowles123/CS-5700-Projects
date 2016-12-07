@@ -13,6 +13,7 @@ import com.USU.OOP.Person.PersonFactory;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 /**
  * Created with IntelliJ IDEA.
@@ -40,7 +41,7 @@ public class JSONDataImporterExporter extends DataImporterExporter {
             }
 
         } catch(JSONException exception) {
-
+            exception.printStackTrace();
         }
     }
 
@@ -51,8 +52,9 @@ public class JSONDataImporterExporter extends DataImporterExporter {
     }
 
     @Override
-    public void saveData(String fileName, Map<Person, List<Person>> matches) {
+    public void saveData(String fileName, Map<Person, List<Person>> matches) throws NotImplementedException {
         System.out.println("Saving data in JSON format is not implemented.");
+        throw new NotImplementedException();
     }
 
     @Override

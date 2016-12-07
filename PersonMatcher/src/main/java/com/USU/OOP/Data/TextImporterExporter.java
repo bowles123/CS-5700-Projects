@@ -1,7 +1,9 @@
 package com.USU.OOP.Data;
 
 import com.USU.OOP.Person.Person;
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
+import javax.management.Notification;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
@@ -13,8 +15,9 @@ import java.util.Map;
 
 public class TextImporterExporter extends DataImporterExporter {
     @Override
-    public void parseFile(String fileName) {
+    public void parseFile(String fileName) throws NotImplementedException {
         System.out.println("Parsing data from a text file is not implemented.");
+        throw new NotImplementedException();
     }
 
     @Override

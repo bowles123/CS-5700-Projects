@@ -1,4 +1,4 @@
-package com.USU.OOP.MatchingStrategiesTests;
+package com.USU.OOP.MatchingStrategyTest;
 
 import com.USU.OOP.Person.Adult;
 import com.USU.OOP.Person.Child;
@@ -115,6 +115,26 @@ public class MatchingStrategiesNullTests {
         person1.set_objectId(2);
 
         match = strategy.Match(person, person1);
+        Assert.assertNull(match);
+    }
+
+    @Test
+    public void OnePersonIsNullTest() {
+        strategy = new IdentNameStrategy();
+
+        person = new Adult();
+        person.set_socialSecurityNumber("123-45-6789");
+        person.setName("Mr.", "John", "Doe");
+        person.set_objectId(1);
+
+        match = strategy.Match(person, null);
+        Assert.assertNull(match);
+    }
+
+    @Test
+    public void TwoPeopleAreNullTest() {
+        strategy = new IdentBirthMotherStrategy();
+        match = strategy.Match(null, null);
         Assert.assertNull(match);
     }
 }

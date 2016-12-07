@@ -34,7 +34,7 @@ public class IdentBirthMotherStrategy extends MatchingStrategy {
     }
 
     @Override
-    protected boolean IsNull() {
+    protected boolean HasNull() {
         if (first.getClass().getSimpleName().equals("Adult") || second.getClass().getSimpleName().equals("Adult")) {
             return true;
         }

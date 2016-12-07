@@ -30,7 +30,7 @@ public class CompleteBirthNameGenderStrategy extends MatchingStrategy {
     }
 
     @Override
-    protected boolean IsNull() {
+    protected boolean HasNull() {
         return (first.get_gender().equals("null") || second.get_gender().equals("null") ||
                 first.get_firstName().equals("null") || second.get_firstName().equals("null") ||
                 first.get_middleName().equals("null") || second.get_middleName().equals("null") ||

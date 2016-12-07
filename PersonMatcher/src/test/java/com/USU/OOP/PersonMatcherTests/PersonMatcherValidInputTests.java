@@ -1,8 +1,9 @@
-package com.USU.OOP;
+package com.USU.OOP.PersonMatcherTests;
 
 import com.USU.OOP.Person.Adult;
 import com.USU.OOP.Person.Child;
 import com.USU.OOP.Person.Person;
+import com.USU.OOP.PersonMatcher;
 import junit.framework.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -17,7 +18,7 @@ import java.util.Map;
  */
 
 @Test
-public class PersonMatcherTests {
+public class PersonMatcherValidInputTests {
     private List<Person> ppl;
     private PersonMatcher personMatcher;
     private Map<Person, List<Person>> matches;
@@ -96,8 +97,7 @@ public class PersonMatcherTests {
     @Test
     public void readInJSONDataTest() {
         Adult person;
-        ppl = personMatcher.readInData(
-                "JSON", "TestPerson.json", "src/test/java/resources/JSON/");
+        ppl = personMatcher.readInData("JSON", "TestPerson.json", "src/test/java/resources/JSON/");
 
         Assert.assertNotNull(ppl);
         Assert.assertTrue(ppl.size() == 1);
@@ -123,8 +123,7 @@ public class PersonMatcherTests {
     @Test
     public void readInXMLDataTest() {
         Adult person;
-        ppl = personMatcher.readInData("XML", "TestPerson.xml",
-                "src/test/java/resources/XML/");
+        ppl = personMatcher.readInData("XML", "TestPerson.xml", "src/test/java/resources/XML/");
 
         Assert.assertNotNull(ppl);
         Assert.assertTrue(ppl.size() == 1);

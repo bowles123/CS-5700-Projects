@@ -26,7 +26,7 @@ public class IdentBirthStrategy extends MatchingStrategy {
     }
 
     @Override
-    protected boolean IsNull() {
+    protected boolean HasNull() {
         return (first.get_socialSecurityNumber().equals("null") || second.get_socialSecurityNumber().equals("null") ||
                 first.get_birthDay() <= 0 || second.get_birthDay() <= 0 ||
                 first.get_birthMonth() <= 0 || second.get_birthMonth() <= 0 ||

@@ -27,7 +27,7 @@ public class IdentNameStrategy extends MatchingStrategy {
     }
 
     @Override
-    protected boolean IsNull() {
+    protected boolean HasNull() {
         return (first.get_socialSecurityNumber().equals("null") || second.get_socialSecurityNumber().equals("null") ||
                 first.get_firstName().equals("null") || second.get_firstName().equals("null") ||
                 first.get_middleName().equals("null") || second.get_middleName().equals("null") ||

@@ -1,4 +1,4 @@
-package com.USU.OOP.CreatePersonTests;
+package com.USU.OOP.PersonFactoryTests;
 
 import com.USU.OOP.Person.Adult;
 import com.USU.OOP.Person.Child;

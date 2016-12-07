@@ -13,14 +13,14 @@ import com.USU.OOP.Person.Person;
 public abstract class MatchingStrategy {
     protected Person first;
     protected Person second;
-    protected abstract boolean IsNull();
+    protected abstract boolean HasNull();
     protected abstract boolean Compare();
 
     public String Match(Person person1, Person person2) {
         first = person1;
         second = person2;
 
-        if (IsNull()) {
+        if (person1 == null || person2 == null || HasNull()) {
             return null;
         } else if (Compare()) {
             return "TRUE";

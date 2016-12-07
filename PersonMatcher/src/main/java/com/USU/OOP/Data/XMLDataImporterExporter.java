@@ -5,6 +5,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -21,8 +22,6 @@ import java.util.Map;
  */
 
 public class XMLDataImporterExporter extends DataImporterExporter {
-    private String filePath;
-
     public XMLDataImporterExporter(String path) {
         filePath = path;
     }
@@ -66,7 +65,8 @@ public class XMLDataImporterExporter extends DataImporterExporter {
     }
 
     @Override
-    public void saveData(String fileName, Map<Person, List<Person>> matches) {
+    public void saveData(String fileName, Map<Person, List<Person>> matches) throws NotImplementedException {
         System.out.println("Saving data in XML format is not implemented.");
+        throw new NotImplementedException();
     }
 }

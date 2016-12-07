@@ -60,16 +60,19 @@ public class PersonMatcher {
     }
 
     public List<Person> readInData(String inputType, String inFile, String filePath) {
-        List<Person> people;
+        List<Person> people = null;
 
-        if (inputType.toUpperCase().equals("JSON")) {
-            importerExporter = new JSONDataImporterExporter("", filePath);
-        } else {
-            importerExporter = new XMLDataImporterExporter(filePath);
+        if (inputType != null && inFile != null && filePath != null) {
+            if (inputType.toUpperCase().equals("JSON")) {
+                importerExporter = new JSONDataImporterExporter("", filePath);
+            } else {
+                importerExporter = new XMLDataImporterExporter(filePath);
+            }
+
+            importerExporter.parseFile(inFile);
+            people = importerExporter.getPeople();
         }
 
-        importerExporter.parseFile(inFile);
-        people = importerExporter.getPeople();
         return people;
     }
 

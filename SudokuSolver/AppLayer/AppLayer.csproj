@@ -52,7 +52,9 @@
     <Compile Include="SudokuComponents\Cell.cs" />
     <Compile Include="SudokuComponents\Column.cs" />
     <Compile Include="SudokuComponents\Component.cs" />
+    <Compile Include="SudokuComponents\Memento.cs" />
     <Compile Include="SudokuComponents\Observer.cs" />
+    <Compile Include="SudokuComponents\Originator.cs" />
     <Compile Include="SudokuComponents\Puzzle.cs" />
     <Compile Include="SudokuComponents\PuzzleFactory.cs" />
     <Compile Include="SudokuComponents\Row.cs" />

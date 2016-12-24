@@ -63,7 +63,7 @@ public class XMLImporterExporterTests {
     public void CreateObjectsTest() {
         importerExporter = new XMLDataImporterExporter("src/test/java/resources/XML/");
         importerExporter.createObjects(document);
-        Assert.assertFalse(importerExporter.getPeople().isEmpty());
+        Assert.assertNotNull(importerExporter.getPeople().isEmpty());
     }
 
     @Test
